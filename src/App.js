@@ -4,9 +4,9 @@ import Body from './components/homebody';
 import Navbar from './components/navbar';
 import Projects from './components/projects';
 import Sidebars from './components/sidebars';
-import { HashRouter } from "react-router-dom";
+// import { HashRouter } from "react-router-dom";
 import {
-  // BrowserRouter as Router,
+  BrowserRouter as Router,
   Routes,
   Route
 } from "react-router-dom";
@@ -14,7 +14,7 @@ import {
 function App() {
   return (
     <>
-      <HashRouter>
+      <Router>
         <Navbar title="RANVIR" />
         <Sidebars />
         <Footer />
@@ -24,7 +24,7 @@ function App() {
           <Route exact path="/projects" element={<Projects class="project" btn="btn" appear="pNo fadeUp" />} />
           {/* <Route/> */}
         </Routes>
-      </HashRouter>
+      </Router>
     </>
   );
 }
