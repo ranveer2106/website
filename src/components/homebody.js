@@ -2,9 +2,15 @@ import React from 'react';
 import About from './about';
 import Contact from './contact';
 import Projects from './projects';
+import { useEffect } from "react";
+
 
 
 function Body(props) {
+    useEffect(() => {
+        document.title = `${props.title}`
+        window.scrollTo(0, 0)
+    })
 
     return (
         <>
@@ -16,7 +22,7 @@ function Body(props) {
                 </div>
             </div>
             <About />
-            <Projects class={props.class} btn={props.btn} appear={props.btn} />
+            <Projects class={props.class} btn={props.btn} appear={props.appear} />
             <Contact />
         </>
     )

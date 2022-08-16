@@ -43,6 +43,9 @@ body{
   color: white;
 }
 #btn{
+  display: inline-block;
+}
+#btnd{
   display: none;
 }
 .dis{
@@ -56,3 +59,31 @@ body{
     margin: 0rem;
   }
 }
+html {
+  scrollbar-width: normal;
+  scrollbar-color: #00FFF5 #222831;
+}
+
+
+
+::-webkit-scrollbar {
+  width: 0.5vw;
+  
+  padding:2rem;
+}
+
+
+::-webkit-scrollbar-track {
+  margin: 0.5vw;
+  
+  background: #222831; 
+  border-radius: 60px;
+
+}
+
+::-webkit-scrollbar-thumb {
+  background: #00FFF5; 
+  
+  border-radius: 60px;
+}
+

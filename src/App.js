@@ -19,9 +19,9 @@ function App() {
         <Sidebars />
         <Footer />
         <Routes>
-          <Route exact path="/" element={<Body class="project" btn="btn" appear="pNo fadeUp dis" />} />
-          <Route exact path="/portfolio" element={<Body class="project" btn="btn" appear="pNo fadeUp dis" />} />
-          <Route exact path="/projects" element={<Projects class="project" btn="btn" appear="pNo fadeUp" />} />
+          <Route exact path="/" element={<Body class="project" btn="btn" appear="dis" title="Home" />} />
+          <Route exact path="/resume" element={"./components/Resume.pdf"} />
+          <Route exact path="/projects" element={<Projects class="project" btn="btnd" appear="pNo fadeUp" title="projects" />} />
         </Routes>
       </HashRouter>
     </>
