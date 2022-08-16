@@ -1,9 +1,15 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+// import { useEffect } from "react";
+
 
 export default function Projects(props) {
+    // useEffect(() => {
+    //     document.title = "This is a title"
+    // }, [])
     return (
         <div className={props.class}>
+
             <div className="contain fadeUp">
                 <h1 className='projects'>Projects {props.Ppage}</h1>
             </div>

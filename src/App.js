@@ -22,7 +22,6 @@ function App() {
           <Route exact path="/" element={<Body class="project" btn="btn" appear="pNo fadeUp dis" />} />
           <Route exact path="/portfolio" element={<Body class="project" btn="btn" appear="pNo fadeUp dis" />} />
           <Route exact path="/projects" element={<Projects class="project" btn="btn" appear="pNo fadeUp" />} />
-          {/* <Route/> */}
         </Routes>
       </HashRouter>
     </>

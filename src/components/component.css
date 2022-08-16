@@ -86,7 +86,7 @@ ul{
 }
 #left::after{
     position: relative;
-    left: 1rem;
+    left: 0.85rem;
     content: "";
     height: 14rem;
     width: 2px;
@@ -104,16 +104,12 @@ ul{
 }
 #email{
     z-index: -1s;
-    /* background-color: aquamarine; */
-    /* display: block; */
     position: fixed;
     bottom: 14rem;
     right: -3rem;
-    /* background-color: yellow; */
     transform: rotate(90deg);
 }
 #email::after{
-    /* transform: rotate(90deg); */
     display: block;
     position: relative;
     content: "";
@@ -123,7 +119,6 @@ ul{
     bottom: 0.6rem;
     background-color: white;
     margin: 0rem;
-    /* right: 1rem; */
     animation-duration: 0.5s;
     animation-fill-mode: both;
     -webkit-animation-duration: 1s;
@@ -157,8 +152,6 @@ ul{
 }
 
 .container{
-    /* text-align: center; */
-    /* border: 2px solid #222831; */
     width: 60%;
     margin: 2rem auto;
     padding: 2.5rem;
@@ -201,7 +194,6 @@ ul{
 }
 .text{
     display: flex;
-    /* padding: 0.5rem; */
 }
 
 .btn{
@@ -284,7 +276,6 @@ ul{
     border: 2px solid #00FFF5;
 }
 .pNo{
-    /* border: 2px solid black; */
     margin: 4rem 2rem;
     display: flex;
 }
@@ -347,6 +338,18 @@ ul{
 .footer{
     display: none;
 }
+.logos{
+    color: white;
+    margin-bottom: 20px;
+    position: relative;
+    font-size: 2.5rem;
+    transition: 0.3s ease;
+}
+.logos:hover{
+    color: #00FFF5;
+    position: relative;
+    bottom: 0.2rem;
+}
 @media(max-width:768px){
     .hamburger{
         display: block;
@@ -408,7 +411,6 @@ ul{
         margin-top: 1rem;
         padding: 0rem;
         width: 90%;
-        /* margin: 10px 0rem; */
     }
     .tech{
         font-size: 2rem;
@@ -471,5 +473,30 @@ ul{
         width: 100%;
         background-color: #222831;
         box-shadow: #00FFF5 0px 2px 8px;
+        z-index: 1;
+    }
+    .logos{
+        margin: 5px 20px;
+    }
+}
+@media(max-height:500px){
+    .footer{
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        bottom: 0rem;
+        width: 100%;
+        background-color: #222831;
+        box-shadow: #00FFF5 0px 2px 8px;
+        z-index: 1;
+    }
+    #email{
+        display: none;
+    }
+    #left{
+        display: none;
+    }
+    .logos{
+        margin: 5px 20px;
     }
 }
