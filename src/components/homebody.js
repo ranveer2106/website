@@ -23,7 +23,7 @@ function Body(props) {
             <div className="container">
                 {/* <img className='img fadeUp' src={require('./round.png')} alt="h" /> */}
                 <div id='text'>
-                    <div className="l1 fadeUp">Hi my name is Ranvir</div>
+                    <div className="l1 fadeUp">Hi my name is Ranvir singh</div>
                     <div className="l2 fadeUp">I build Stuff for the internet</div>
                     <div className="l3 fadeUp">I'm a student currently. I like to work on HTML,CSS,Javascript,Nodejs and React I'm a student currently. I like to work on HTML,CSS,Javascript,Nodejs and React I'm a student currently. I like to work on HTML,CSS,Javascript,Nodejs and React</div>
                 </div>
