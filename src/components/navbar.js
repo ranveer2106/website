@@ -4,6 +4,7 @@ import "./component.css"
 import { useState } from "react";
 import { Link } from 'react-router-dom';
 
+
 export default function Navbar(props) {
   const [isActive, setActive] = useState("false");
   let print = () => {
@@ -20,8 +21,7 @@ export default function Navbar(props) {
       <div id='options' className={`options ${isActive ? "NotActive" : "active"}`}>
         <ul className={`options ${isActive ? "NotActive" : "active"}`}>
           <li className='items fadeUp'><Link className='link navl' to="/">Home</Link></li>
-          {/* <li className='items fadeUp' ><a className='link navl' target={"_blank"} rel="noreferrer" href="https://bit.ly/3P4wXYP">Resume</a></li> */}
-          <li className='items fadeUp' ><a className='link navl' target={"_blank"} rel="noreferrer" href={require("./Resume.pdf")}>Resume</a></li>
+          <li className='items fadeUp' ><a className='link navl' rel="noreferrer" target="_blank" href="https://drive.google.com/file/d/1DRtyu4F9s0RoW1vnDwS0ujqER-1e1VRJ/view">Resume</a></li>
           <li className='items fadeUp'><Link className='link navl' to="/projects">Projects</Link></li>
           <li className='items fadeUp'><a className='link navl' href="mailto:ranveerbhatti2106@gmail.com">Contact</a></li>
         </ul>

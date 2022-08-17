@@ -11,6 +11,7 @@ import {
   Route
 } from "react-router-dom";
 
+
 function App() {
   return (
     <>
@@ -20,7 +21,6 @@ function App() {
         <Footer />
         <Routes>
           <Route exact path="/" element={<Body class="project" btn="btn" appear="dis" title="Home" />} />
-          <Route exact path="/resume" element={"./components/Resume.pdf"} />
           <Route exact path="/projects" element={<Projects class="project" btn="btnd" appear="pNo fadeUp" title="projects" />} />
         </Routes>
       </Router>

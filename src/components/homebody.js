@@ -24,6 +24,8 @@ function Body(props) {
             <About />
             <Projects class={props.class} btn={props.btn} appear={props.appear} />
             <Contact />
+
+
         </>
     )
 }
