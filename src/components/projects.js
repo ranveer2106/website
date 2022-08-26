@@ -22,17 +22,17 @@ export default function Projects(props) {
                     <div style={{ display: "inline-block" }} className="Ptext">
                         <h1 className='fadeUp'>Project No. 1</h1>
                         <p className='fadeUp'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit dicta ipsa recusandae, doloribus tempore molestias nostrum saepe quam quae hic voluptatibus sit facere nesciunt laborum? Dolorem cum minus velit magnam nobis officia sunt molestiae eius reprehenderit exercitationem impedit dicta voluptatem, atque id aliquam natus voluptatum beatae vero fuga quos? Quia.</p>
-                        <div className='pLink fadeUp'>
+                        <div className='pLink fadeUp jcs'>
                             <span className="material-symbols-outlined icons fadeUp"><a href="/">done</a></span>
                             <span className="material-symbols-outlined icons fadeUp"><a href="/">done</a></span>
                         </div>
                     </div>
                 </div>
                 <div className={`pNo fadeUp p2No`}>
-                    <div style={{ display: "inline-block" }} className="Ptext" id='p2'>
+                    <div style={{ display: "inline-block" }} className="Ptext p2" id='p2'>
                         <h1 className='fadeUp'>Project No. 2</h1>
                         <p className='fadeUp' >Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit dicta ipsa recusandae, doloribus tempore molestias nostrum saepe quam quae hic voluptatibus sit facere nesciunt laborum? Dolorem cum minus velit magnam nobis officia sunt molestiae eius reprehenderit exercitationem impedit dicta voluptatem, atque id aliquam natus voluptatum beatae vero fuga quos? Quia.</p>
-                        <div className='pLink fadeUp' style={{ justifyContent: "start" }}>
+                        <div className='pLink fadeUp jcs' style={{ justifyContent: "start" }}>
                             <span className="material-symbols-outlined icons fadeUp"><a href="/">done</a></span>
                             <span className="material-symbols-outlined icons fadeUp"><a href="/">done</a></span>
                         </div>
@@ -49,14 +49,14 @@ export default function Projects(props) {
                     <div style={{ display: "inline-block" }} className="Ptext">
                         <h1 className='fadeUp'>Project No. 3</h1>
                         <p className='fadeUp'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit dicta ipsa recusandae, doloribus tempore molestias nostrum saepe quam quae hic voluptatibus sit facere nesciunt laborum? Dolorem cum minus velit magnam nobis officia sunt molestiae eius reprehenderit exercitationem impedit dicta voluptatem, atque id aliquam natus voluptatum beatae vero fuga quos? Quia.</p>
-                        <div className='pLink fadeUp'>
+                        <div className='pLink fadeUp jcs'>
                             <span className="material-symbols-outlined icons fadeUp"><a href="/">done</a></span>
                             <span className="material-symbols-outlined icons fadeUp"><a href="/">done</a></span>
                         </div>
                     </div>
                 </div>
                 <div className={`${props.appear} p2No`}>
-                    <div style={{ display: "inline-block" }} className="Ptext" id='p2'>
+                    <div style={{ display: "inline-block" }} className="Ptext p2" id='p2'>
                         <h1 className='fadeUp'>Project No. 4</h1>
                         <p className='fadeUp' >Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit dicta ipsa recusandae, doloribus tempore molestias nostrum saepe quam quae hic voluptatibus sit facere nesciunt laborum? Dolorem cum minus velit magnam nobis officia sunt molestiae eius reprehenderit exercitationem impedit dicta voluptatem, atque id aliquam natus voluptatum beatae vero fuga quos? Quia.</p>
                         <div className='pLink fadeUp' style={{ justifyContent: "start" }}>
@@ -76,14 +76,14 @@ export default function Projects(props) {
                     <div style={{ display: "inline-block" }} className="Ptext">
                         <h1 className='fadeUp'>Project No. 5</h1>
                         <p className='fadeUp'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit dicta ipsa recusandae, doloribus tempore molestias nostrum saepe quam quae hic voluptatibus sit facere nesciunt laborum? Dolorem cum minus velit magnam nobis officia sunt molestiae eius reprehenderit exercitationem impedit dicta voluptatem, atque id aliquam natus voluptatum beatae vero fuga quos? Quia.</p>
-                        <div className='pLink fadeUp'>
+                        <div className='pLink fadeUp jcs'>
                             <span className="material-symbols-outlined icons fadeUp"><a href="/">done</a></span>
                             <span className="material-symbols-outlined icons fadeUp"><a href="/">done</a></span>
                         </div>
                     </div>
                 </div>
                 <div className={`${props.appear} p2No`}>
-                    <div style={{ display: "inline-block" }} className="Ptext" id='p2'>
+                    <div style={{ display: "inline-block" }} className="Ptext p2" id='p2'>
                         <h1 className='fadeUp'>Project No. 6</h1>
                         <p className='fadeUp' >Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit dicta ipsa recusandae, doloribus tempore molestias nostrum saepe quam quae hic voluptatibus sit facere nesciunt laborum? Dolorem cum minus velit magnam nobis officia sunt molestiae eius reprehenderit exercitationem impedit dicta voluptatem, atque id aliquam natus voluptatum beatae vero fuga quos? Quia.</p>
                         <div className='pLink fadeUp' style={{ justifyContent: "start" }}>
@@ -103,7 +103,7 @@ export default function Projects(props) {
                     <div style={{ display: "inline-block" }} className="Ptext">
                         <h1 className='fadeUp'>Project No. 7</h1>
                         <p className='fadeUp'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit dicta ipsa recusandae, doloribus tempore molestias nostrum saepe quam quae hic voluptatibus sit facere nesciunt laborum? Dolorem cum minus velit magnam nobis officia sunt molestiae eius reprehenderit exercitationem impedit dicta voluptatem, atque id aliquam natus voluptatum beatae vero fuga quos? Quia.</p>
-                        <div className='pLink fadeUp'>
+                        <div className='pLink fadeUp jcs'>
                             <span className="material-symbols-outlined icons fadeUp"><a href="/">done</a></span>
                             <span className="material-symbols-outlined icons fadeUp"><a href="/">done</a></span>
                         </div>

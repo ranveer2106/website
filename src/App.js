@@ -16,6 +16,7 @@ function App() {
   return (
     <>
       <Router>
+
         <Navbar title="RANVIR" />
         <Sidebars />
         <Footer />

@@ -166,6 +166,7 @@ ul{
     font-size: 5rem;
     color: #00FFF5;
     margin:  1rem auto;
+    margin-bottom: 0%;
     margin-top: 4rem;
     font-family: 'Baloo Bhaijaan 2', cursive;
 }
@@ -298,7 +299,7 @@ ul{
     justify-content: flex-end;
     margin: 2rem 0rem;
 }
-#p2{
+.p2{
     text-align: right;
 }
 .showMore{
@@ -351,6 +352,22 @@ ul{
     color: #00FFF5;
     position: relative;
     bottom: 0.2rem;
+}
+#exp{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+    width:70%;
+}
+.highlight{
+    color: #00FFF5;
+}
+#exph{
+    display: inline-block;
 }
 @media(max-width:768px){
     .hamburger{
@@ -461,7 +478,7 @@ ul{
     .projectl{
         width: 100%;
     }
-    #p2{
+    .p2{
         text-align: left;
     }
     .p2No{
@@ -479,6 +496,13 @@ ul{
     }
     .logos{
         margin: 5px 15px;
+    }
+    #experience{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #exp h1{
+        font-size: 2rem;
     }
 }
 @media(max-height:500px){
@@ -501,4 +525,33 @@ ul{
     .logos{
         margin: 5px 20px;
     }
+}
+@media(max-width:885px){
+    #experience{
+        flex-direction: column;
+    }
+    .options{
+        margin-right: 2rem;
+    }
+    .pNo{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .p2No{
+        flex-direction: column-reverse;
+    }
+    .p2{
+        text-align: left;
+    }
+    .jcs{
+        justify-content: start;
+    }
+}
+@media(max-width:885px){
+    .options{
+        margin-right: 0rem;
+    }
+}
+.animate{
+    background-color: #222831;
 }

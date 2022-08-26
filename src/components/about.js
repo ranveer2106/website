@@ -9,22 +9,22 @@ export default function About() {
                 <p className='fadeUp'>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas voluptatem rem nostrum temporibus in molestias iure officia at sint porro accusamus enim magnam soluta, ea nihil veniam, aperiam amet totam, sit perspiciatis. Quidem corporis quibusdam omnis consectetur deserunt natus possimus aliquid consequatur, earum quia ex at unde! Distinctio quia laudantium accusantium suscipit beatae ad a placeat error tempore delectus, consequatur, tenetur officiis optio reprehenderit non necessitatibus enim doloremque ut commodi.
                 </p>
-                <h1 className='tech'>Technologies I use</h1>
+                <h1 className='tech'>Technologies & Skills</h1>
                 <div className="skills">
                     <div className='skill'>
                         <ul>
-                            <li>HTML</li>
-                            <li>CSS</li>
+                            <li>HTML/CSS</li>
                             <li>JavaScript</li>
-                            <li>NodeJs</li>
+                            <li>REACTJS</li>
+                            <li>BOOTSTRAP/TailwindCss</li>
                         </ul>
                     </div>
                     <div className='skill'>
                         <ul>
-                            <li>React</li>
-                            <li>MongoDB</li>
-                            <li>Python</li>
-                            <li>TypeScript</li>
+                            <li>Figma</li>
+                            <li>PYTHON</li>
+                            <li>GIT/Github</li>
+                            <li>NodeJs</li>
                         </ul>
                     </div>
                 </div>

@@ -3,6 +3,7 @@ import About from './about';
 import Contact from './contact';
 import Projects from './projects';
 import { useEffect } from "react";
+import Experience from './experience';
 
 
 
@@ -18,10 +19,13 @@ function Body(props) {
                 <div id='text'>
                     <div className="l1 fadeUp">Hi my name is Ranvir</div>
                     <div className="l2 fadeUp">I build Stuff for the internet</div>
-                    <div className="l3 fadeUp">I'm a student currently. I like to work on HTML,CSS,Javascript,Nodejs and React I'm a student currently. I like to work on HTML,CSS,Javascript,Nodejs and React I'm a student currently. I like to work on HTML,CSS,Javascript,Nodejs and React</div>
+                    <div className="l3 fadeUp">I'm a <span className="highlight"> front-end Engineer </span>. I like to build <span className="highlight">
+                        Websites</span>  and play with new <span className="highlight">Technology</span> .I also help local businesses in taking their business online. I love to work on <span className="highlight">Javascript</span>  and <span className="highlight">
+                            Python</span>. I'm Currently pursuing <span className='highlight'>B.tech Degree</span> in <span className='highlight'>Computer Science</span> At VIT</div>
                 </div>
             </div>
             <About />
+            <Experience />
             <Projects class={props.class} btn={props.btn} appear={props.appear} />
             <Contact />
 
