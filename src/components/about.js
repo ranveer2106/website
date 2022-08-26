@@ -5,9 +5,18 @@ export default function About() {
         <>
             <div className="container fadeUp" id='about'>
                 <h1 className='about'>About me</h1>
-                <img className='img fadeUp' src={require('./round.png')} alt="h" />
+                {/* <img className='img fadeUp' src={require('./round.png')} alt="h" /> */}
                 <p className='fadeUp'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas voluptatem rem nostrum temporibus in molestias iure officia at sint porro accusamus enim magnam soluta, ea nihil veniam, aperiam amet totam, sit perspiciatis. Quidem corporis quibusdam omnis consectetur deserunt natus possimus aliquid consequatur, earum quia ex at unde! Distinctio quia laudantium accusantium suscipit beatae ad a placeat error tempore delectus, consequatur, tenetur officiis optio reprehenderit non necessitatibus enim doloremque ut commodi.
+                    <h3>
+                        Knowledgeable Front End Developer adept at creating successful websites that meet
+                        customer needs. Specializing in collaborating with Any type of customer to gather
+                        requirements, produce plans and improve designs for usability and functionality.
+                        Fully proficient in JavaScript and Python Background includes designing Single Page
+                        websites without Re-load in Agile environments. Exceptional team player with an
+                        analytical approach to developing useful solutions.
+
+
+                    </h3>
                 </p>
                 <h1 className='tech'>Technologies & Skills</h1>
                 <div className="skills">
