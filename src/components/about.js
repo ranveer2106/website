@@ -5,12 +5,13 @@ export default function About() {
         <>
             <div className="container fadeUp" id='about'>
                 <h1 className='about'>About me</h1>
-                {/* <img className='img fadeUp' src={require('./round.png')} alt="h" /> */}
+                <img className='img fadeUp' src={require('./round.png')} alt="h" />
                 <p className='fadeUp'>
                     <h3>
                         Knowledgeable Front End Developer adept at creating successful websites that meet
                         customer needs. Specializing in collaborating with Any type of customer to gather
                         requirements, produce plans and improve designs for usability and functionality.
+
                         Fully proficient in JavaScript and Python Background includes designing Single Page
                         websites without Re-load in Agile environments. Exceptional team player with an
                         analytical approach to developing useful solutions.

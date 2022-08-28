@@ -369,6 +369,13 @@ ul{
 #exph{
     display: inline-block;
 }
+.ppa{
+    font-size: 1.3rem;
+}
+.pList{
+    font-family: 'Baloo Bhaijaan 2', cursive;
+
+}
 @media(max-width:768px){
     .hamburger{
         display: block;
