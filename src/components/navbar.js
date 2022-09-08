@@ -21,7 +21,7 @@ export default function Navbar(props) {
       <div id='options' className={`options ${isActive ? "NotActive" : "active"}`}>
         <ul className={`options ${isActive ? "NotActive" : "active"}`}>
           <li className='items fadeUp'><Link className='link navl' to="/">Home</Link></li>
-          <li className='items fadeUp' ><a className='link navl' rel="noreferrer" target="_blank" href="https://drive.google.com/file/d/1yJuCY1QQ5WN1_-7SONXO2cNYB99eqhaO/view">Resume</a></li>
+          <li className='items fadeUp' ><a className='link navl' rel="noreferrer" target="_blank" href="https://drive.google.com/file/d/1shXgHNrM8K0h6heDLtaUl9zURzrBGK2m/view?usp=sharing">Resume</a></li>
           <li className='items fadeUp'><Link className='link navl' to="/projects">Projects</Link></li>
           <li className='items fadeUp'><a className='link navl' href="mailto:ranveerbhatti2106@gmail.com">Contact</a></li>
         </ul>
