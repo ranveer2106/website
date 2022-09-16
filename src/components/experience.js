@@ -5,7 +5,7 @@ export default function Experience() {
         <>
             <div className="container" id='exp'>
                 <h1 style={{ color: "#00FFF5" }}>Experiences & Certifications</h1>
-                <p>
+                <div>
                     <div style={{ display: "flex" }} id="experience">
                         <div id="exph">
                             <img className='imgs fadeUp' src={require('./img/gc.png')} alt="h" />
@@ -18,7 +18,7 @@ export default function Experience() {
                             </p>
                         </div>
                     </div>
-                </p>
+                </div>
             </div>
         </>
     )

@@ -1,7 +1,8 @@
-body{
+body {
   background-color: #222831;
 }
-.fadeUp{
+
+.fadeUp {
   animation-duration: 0.5s;
   animation-fill-mode: both;
   -webkit-animation-duration: 1s;
@@ -9,56 +10,71 @@ body{
   opacity: 0;
   animation-name: fadeInUp;
   -webkit-animation-name: fadeInUp;
-  
+
 }
+
 @keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
+
 @keyframes fadeInUp {
   from {
-      transform: translate3d(0,30px,0);
+    transform: translate3d(0, 30px, 0);
   }
 
   to {
-      transform: translate3d(0,0,0);
-      opacity: 1
+    transform: translate3d(0, 0, 0);
+    opacity: 1
   }
 }
+
 @-webkit-keyframes fadeInUp {
   from {
-      transform: translate3d(0,40px,0)
+    transform: translate3d(0, 40px, 0)
   }
 
   to {
-      transform: translate3d(0,0,0);
-      opacity: 1
+    transform: translate3d(0, 0, 0);
+    opacity: 1
   }
 }
-.project{
+
+.project {
   width: 70%;
   margin: auto;
   padding-bottom: 4rem;
   margin-bottom: 3rem;
   color: white;
 }
-#btn{
+
+#btn {
   display: inline-block;
 }
-#btnd{
+
+#btnd {
   display: none;
 }
-.dis{
+
+.dis {
   display: none;
 }
-@media(max-width:768px){
-  .project{
+
+@media(max-width:768px) {
+  .project {
     width: 100%;
   }
-  .pNo{
+
+  .pNo {
     margin: 0rem;
   }
 }
+
 html {
   scrollbar-width: normal;
   scrollbar-color: #00FFF5 #222831;
@@ -68,22 +84,34 @@ html {
 
 ::-webkit-scrollbar {
   width: 0.5vw;
-  
-  padding:2rem;
+
+  padding: 2rem;
 }
 
 
 ::-webkit-scrollbar-track {
   margin: 0.5vw;
-  
-  background: #222831; 
+
+  background: #222831;
   border-radius: 60px;
 
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #00FFF5; 
-  
+  background: #00FFF5;
+
   border-radius: 60px;
 }
 
+.card {
+  opacity: 0;
+  position: relative;
+  left: 100px;
+  transition: 1s;
+}
+
+.show {
+  opacity: 1;
+  position: relative;
+  left: 0px;
+}
