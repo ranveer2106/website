@@ -12,14 +12,29 @@ function Body(props) {
         document.title = `${props.title}`
         window.scrollTo(0, 0)
     })
+    let cards = document.querySelectorAll(".card")
+    console.log("yo");
+    const observerr = new IntersectionObserver(entries => {
+        console.log(entries)
+        entries.forEach(entry => {
+            entry.target.classList.toggle("show", entry.isIntersecting)
+            // if (entry.isIntersecting) {observerr.unobserve(entry.target)}
+            // the above line can be used to make the element stay on the page
+        })
+    }, { threshold: 0.6 })
+
+
+    cards.forEach(card => {
+        observerr.observe(card)
+    });
 
     return (
         <>
             <div className="container">
                 <div id='text'>
-                    <div className="l1 fadeUp">Hi my name is Ranvir</div>
-                    <div className="l2 fadeUp">I build Stuff for the internet</div>
-                    <div className="l3 fadeUp">I'm a <span className="highlight"> front-end Engineer </span>. I like to build <span className="highlight">
+                    <div className="l1 fadeUp card">Hi my name is Ranvir</div>
+                    <div className="l2 fadeUp card">I build Stuff for the internet</div>
+                    <div className="l3 fadeUp card">I'm a <span className="highlight"> front-end Engineer </span>. I like to build <span className="highlight">
                         Websites</span>  and play with new <span className="highlight">Technology</span> .I also help local businesses in taking their business online. I love to work on <span className="highlight">Javascript</span>  and <span className="highlight">
                             Python</span>. I'm Currently pursuing <span className='highlight'>B.tech Degree</span> in <span className='highlight'>Computer Science</span> At VIT</div>
                 </div>

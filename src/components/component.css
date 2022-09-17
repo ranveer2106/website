@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Edu+VIC+WA+NT+Beginner&family=Fredoka+One&family=Oleo+Script+Swash+Caps&family=Tiro+Gurmukhi&display=swap');
-*{
+
+* {
     margin: 0rem;
 }
-.navbar{
+
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -15,25 +17,29 @@
     background-color: #222831;
     z-index: 1;
 }
-.link{
+
+.link {
     font-family: 'Baloo Bhaijaan 2', cursive;
     text-decoration: none;
     color: #00FFF5;
     font-size: 1.3rem;
 }
-#title{
+
+#title {
     margin: 0rem 1rem;
     font-weight: 100;
     font-size: 1.5rem;
     font-family: 'Tiro Gurmukhi', serif;
 }
-ul{
+
+ul {
     display: flex;
     justify-content: space-between;
     list-style: none;
     padding: 0rem;
 }
-.options{
+
+.options {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -41,21 +47,24 @@ ul{
     font-size: 1.3rem;
 }
 
-.items{
+.items {
     margin: 0rem 2rem;
     border: 2px solid transparent;
     padding: 0.1rem 0.4rem;
     transition: 0.3s ease;
 }
-.items:hover{
+
+.items:hover {
     border: 2px solid #00FFF5;
     border-radius: 5px;
 }
-.hamburger{
+
+.hamburger {
     display: none;
     cursor: pointer;
 }
-.bar{
+
+.bar {
     background-color: #00FFF5;
     display: block;
     width: 25px;
@@ -65,7 +74,7 @@ ul{
     transition: all 0.5s ease-in-out;
 }
 
-#left{
+#left {
 
     position: fixed;
     bottom: 0rem;
@@ -73,19 +82,22 @@ ul{
     display: flex;
     flex-direction: column;
 }
-.icons a{
+
+.icons a {
     position: relative;
     font-size: 2.5rem;
     text-decoration: none;
     transition: 0.3s ease;
     color: white;
 }
-.icons a:hover{
+
+.icons a:hover {
     color: #00FFF5;
     position: relative;
     bottom: 0.3rem;
 }
-#left::after{
+
+#left::after {
     position: relative;
     left: 0.85rem;
     content: "";
@@ -93,24 +105,28 @@ ul{
     width: 2px;
     background-color: white;
 }
-#email a{
+
+#email a {
     text-decoration: none;
     color: white;
     transition: 0.3s ease;
 }
-#email a:hover{
+
+#email a:hover {
     color: #00FFF5;
     position: relative;
     right: 0.3rem;
 }
-#email{
+
+#email {
     z-index: -1s;
     position: fixed;
     bottom: 14rem;
     right: -3rem;
     transform: rotate(90deg);
 }
-#email::after{
+
+#email::after {
     display: block;
     position: relative;
     content: "";
@@ -128,31 +144,33 @@ ul{
     animation-name: fadeInUpemail;
     -webkit-animation-name: fadeInUpemail;
 }
-@keyframes fadeInUpemail{
+
+@keyframes fadeInUpemail {
     from {
-        transform: translate3d(0px,10px,0);
+        transform: translate3d(0px, 10px, 0);
         opacity: 0;
     }
-  
+
     to {
         opacity: 1;
         right: -3rem;
 
     }
-  }
+}
+
 @-webkit-keyframes fadeInUpemail {
     from {
-        transform: translate3d(0,10px,0);
+        transform: translate3d(0, 10px, 0);
         opacity: 0rem;
     }
-  
+
     to {
         right: -3rem;
         opacity: 1
     }
 }
 
-.container{
+.container {
     width: 60%;
     margin: 2rem auto;
     padding: 2.5rem;
@@ -162,43 +180,49 @@ ul{
     margin-bottom: 2rem;
     border-bottom: 2px solid #00FFF5;
 }
-.l1{
+
+.l1 {
     font-size: 5rem;
     color: #00FFF5;
-    margin:  1rem auto;
+    margin: 1rem auto;
     margin-bottom: 0%;
     margin-top: 4rem;
     font-family: 'Baloo Bhaijaan 2', cursive;
 }
-.l2{
+
+.l2 {
     font-family: 'Baloo Bhaijaan 2', cursive;
-    margin:  1rem auto;
+    margin: 1rem auto;
     font-size: 4rem;
     font-weight: bold;
     color: white;
 }
-.l3{
+
+.l3 {
     font-family: 'Baloo Bhaijaan 2', cursive;
-    margin:  1rem auto;
+    margin: 1rem auto;
     font-size: 1.5rem;
     color: white;
 }
-.img{
+
+.img {
     width: 300px;
     margin: auto;
     margin-bottom: 2rem;
     border-radius: 500px;
     border: 4px solid #00FFF5;
 }
-.img:hover{
+
+.img:hover {
     border-radius: 500px;
     filter: drop-shadow(0px 0px 15px gray);
 }
-.text{
+
+.text {
     display: flex;
 }
 
-.btn{
+.btn {
     text-decoration: none;
     margin-top: 1rem;
     padding: 0.3rem 0.6rem;
@@ -210,10 +234,12 @@ ul{
     font-family: 'Baloo Bhaijaan 2', cursive;
     border-radius: 10px;
 }
-.btn:hover{
+
+.btn:hover {
     filter: drop-shadow(0px 0px 10px #00FFF5);
 }
-.about{
+
+.about {
     font-size: 6rem;
     text-align: center;
     margin: 2rem;
@@ -221,7 +247,8 @@ ul{
     color: #00FFF5;
     font-family: 'Baloo Bhaijaan 2', cursive;
 }
-#about{
+
+#about {
     color: #00FFF5;
     color: white;
     display: flex;
@@ -229,60 +256,70 @@ ul{
     flex-wrap: wrap;
     font-family: 'Baloo Bhaijaan 2', cursive;
 }
-.skills{
+
+.skills {
     margin: 2rem 0;
     display: flex;
     flex-wrap: wrap;
     /* flex-direction: column; */
 }
-.skill{
+
+.skill {
     margin: 0rem 3rem;
 }
-.skill ul{
+
+.skill ul {
     width: 20%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     margin: 0rem 1rem;
 }
-.skill ul li{
+
+.skill ul li {
     list-style: square;
     font-size: 2rem;
     font-family: 'Baloo Bhaijaan 2', cursive;
 }
-.tech{
+
+.tech {
     font-size: 3rem;
     font-family: 'Baloo Bhaijaan 2', cursive;
 }
-.contain{
+
+.contain {
     width: 60%;
     margin: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
-.projects{
+
+.projects {
     text-align: center;
     margin: auto;
     font-size: 5rem;
     color: #00FFF5;
     font-family: 'Baloo Bhaijaan 2', cursive;
 }
-.imgs{
+
+.imgs {
     width: 300px;
     border-radius: 10px;
     border: 2px solid transparent;
 }
-.imgs:hover{
+
+.imgs:hover {
     filter: drop-shadow(0px 0px 10px #00FFF5);
     border: 2px solid #00FFF5;
 }
-.pNo{
+
+.pNo {
     margin: 4rem 2rem;
     display: flex;
 }
 
-.projectl{
+.projectl {
     border-bottom: 2px solid #00FFF5;
     width: 70%;
     margin: auto;
@@ -290,19 +327,23 @@ ul{
     margin-bottom: 3rem;
     color: white;
 }
-.Ptext{
+
+.Ptext {
     display: flex;
     margin: 1rem;
 }
-.pLink{
+
+.pLink {
     display: flex;
     justify-content: flex-end;
     margin: 2rem 0rem;
 }
-.p2{
+
+.p2 {
     text-align: right;
 }
-.showMore{
+
+.showMore {
     margin: auto;
     text-decoration: none;
     border: 2px solid #00FFF5;
@@ -313,13 +354,16 @@ ul{
     font-family: 'Baloo Bhaijaan 2', cursive;
     border-radius: 10px;
 }
-.showMore:hover{
+
+.showMore:hover {
     background-color: #393E46;
 }
-.sLink{
+
+.sLink {
     text-align: center;
 }
-#contactP{
+
+#contactP {
     display: flex;
     font-family: 'Baloo Bhaijaan 2', cursive;
     justify-content: center;
@@ -330,30 +374,36 @@ ul{
     width: 80%;
     color: white;
 }
-#contactP h1{
+
+#contactP h1 {
     font-size: 3rem;
 }
-#call{
+
+#call {
     font-size: 2rem;
     padding: 0.5rem 1rem;
     margin: 2rem;
 }
-.footer{
+
+.footer {
     display: none;
 }
-.logos{
+
+.logos {
     color: white;
     margin-bottom: 20px;
     position: relative;
     font-size: 2.5rem;
     transition: 0.3s ease;
 }
-.logos:hover{
+
+.logos:hover {
     color: #00FFF5;
     position: relative;
     bottom: 0.2rem;
 }
-#exp{
+
+#exp {
     display: flex;
     flex-direction: column;
     color: white;
@@ -361,38 +411,47 @@ ul{
     font-size: 2rem;
     align-items: center;
     justify-content: center;
-    width:70%;
+    width: 70%;
 }
-.highlight{
+
+.highlight {
     color: #00FFF5;
 }
-#exph{
+
+#exph {
     display: inline-block;
 }
-.ppa{
+
+.ppa {
     font-size: 1.3rem;
 }
-.pList{
+
+.pList {
     font-family: 'Baloo Bhaijaan 2', cursive;
 
 }
-@media(max-width:768px){
-    .hamburger{
+
+@media(max-width:768px) {
+    .hamburger {
         display: block;
     }
-    #two.active{
+
+    #two.active {
         opacity: 0;
     }
-    #one.active{
+
+    #one.active {
         transform: translateY(8px) rotate(45deg);
     }
-    #three.active{
+
+    #three.active {
         transform: translateY(-8px) rotate(-45deg);
     }
-    .options{
+
+    .options {
         font-size: 1.3rem;
         flex-direction: column;
-        position: fixed; 
+        position: fixed;
         right: -200%;
         top: 3.2rem;
         width: 100%;
@@ -405,93 +464,114 @@ ul{
         padding: 0%;
         margin: 0%;
         box-shadow: #00FFF5 0px 2px 8px;
-   
+
     }
-    .navl{
+
+    .navl {
         padding: 0rem 18rem;
         width: 100%;
         height: 100%;
     }
 
-    .items{
+    .items {
         text-align: center;
         padding: 0rem;
         margin: 0%;
         width: 200%;
         height: 100%;
     }
-    .options.active{
+
+    .options.active {
         right: 0rem;
     }
-    #email{
+
+    #email {
         display: none;
     }
-    #left{
+
+    #left {
         display: none;
     }
-    .img{
+
+    .img {
         margin: auto;
         width: 200px;
     }
-    .container{
+
+    .container {
         margin-top: 1rem;
         padding: 0rem;
         width: 90%;
     }
-    .tech{
+
+    .tech {
         font-size: 2rem;
     }
-    .skill ul li{
+
+    .skill ul li {
         list-style: square;
         font-size: 1rem;
     }
-    .tech{
+
+    .tech {
         font-size: 1rem;
     }
-    .about{
+
+    .about {
         font-size: 1rem;
     }
-    .skill ul{
+
+    .skill ul {
         width: 100%;
     }
-    .l1{
+
+    .l1 {
         margin-top: 1rem;
         padding: 0.3rem;
         font-size: 2rem;
         text-align: center;
     }
-    .l2{
+
+    .l2 {
         padding: 0.3rem;
         text-align: center;
         font-size: 2rem;
     }
-    .l3{
+
+    .l3 {
         text-align: center;
         padding: 0.3rem;
         font-size: 1rem;
     }
-    .imgs{
+
+    .imgs {
         width: 250px;
         justify-content: center;
         text-align: center;
         margin: auto;
     }
-    .pNo{
+
+    .pNo {
         flex-wrap: wrap;
     }
-    .projects{
+
+    .projects {
         font-size: 3rem;
     }
-    .projectl{
+
+    .projectl {
         width: 100%;
     }
-    .p2{
+
+    .p2 {
         text-align: left;
     }
-    .p2No{
+
+    .p2No {
         flex-wrap: wrap-reverse;
     }
-    .footer{
+
+    .footer {
         display: flex;
         justify-content: center;
         position: fixed;
@@ -501,19 +581,23 @@ ul{
         box-shadow: #00FFF5 0px 2px 8px;
         z-index: 1;
     }
-    .logos{
+
+    .logos {
         margin: 5px 15px;
     }
-    #experience{
+
+    #experience {
         flex-wrap: wrap;
         justify-content: center;
     }
-    #exp h1{
+
+    #exp h1 {
         font-size: 2rem;
     }
 }
-@media(max-height:500px){
-    .footer{
+
+@media(max-height:500px) {
+    .footer {
         display: flex;
         justify-content: center;
         position: fixed;
@@ -523,42 +607,68 @@ ul{
         box-shadow: #00FFF5 0px 2px 8px;
         z-index: 1;
     }
-    #email{
+
+    #email {
         display: none;
     }
-    #left{
+
+    #left {
         display: none;
     }
-    .logos{
+
+    .logos {
         margin: 5px 20px;
     }
 }
-@media(max-width:885px){
-    #experience{
+
+@media(max-width:885px) {
+    #experience {
         flex-direction: column;
     }
-    .options{
+
+    .options {
         margin-right: 2rem;
     }
-    .pNo{
+
+    .pNo {
         flex-direction: column;
         justify-content: center;
     }
-    .p2No{
+
+    .p2No {
         flex-direction: column-reverse;
     }
-    .p2{
+
+    .p2 {
         text-align: left;
     }
-    .jcs{
+
+    .jcs {
         justify-content: start;
     }
 }
-@media(max-width:885px){
-    .options{
+
+@media(max-width:885px) {
+    .options {
         margin-right: 0rem;
     }
 }
-.animate{
+
+.animate {
     background-color: #222831;
+}
+
+.card {
+    opacity: 0;
+    /* position: relative; */
+    /* left: 0px; */
+    /* transform: translateX(100px); */
+    /* transition: 1s ease-in-out; */
+}
+
+.show {
+    /* opacity: 1; */
+    position: relative;
+    /* left: 100px; */
+    /* transform: translateX(0px); */
 }

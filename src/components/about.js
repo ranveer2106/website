@@ -6,7 +6,7 @@ export default function About() {
             <div className="container fadeUp" id='about'>
                 <h1 className='about'>About me</h1>
                 <img className='img fadeUp' src={require('./round.png')} alt="h" />
-                <p className='fadeUp'>
+                <div className='fadeUp'>
                     <h3>
                         Knowledgeable Front End Developer adept at creating successful websites that meet
                         customer needs. Specializing in collaborating with Any type of customer to gather
@@ -18,7 +18,7 @@ export default function About() {
 
 
                     </h3>
-                </p>
+                </div>
                 <h1 className='tech'>Technologies & Skills</h1>
                 <div className="skills">
                     <div className='skill'>
