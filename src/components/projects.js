@@ -1,27 +1,45 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { useEffect } from "react";
+import {
+    useEffect,
+    // useRef,
+    // useState
+} from "react";
+import "./component.css"
+
+// import { useInView } from 'react-intersection-observer';
+
+
+
 
 
 export default function Projects(props) {
+    // const { ref, inView, entry } = useInView(options);
+
+
+    // const myRef = useRef();
+    // const [visible, setvisible] = useState();
+    // console.log(visible)
     useEffect(() => {
+        // console.log('myref', myRef.current)
         document.title = `${props.title}`
         window.scrollTo(0, 0)
     })
+
+
     return (
         <div className={props.class}>
-
             <div className="contain fadeUp">
                 <h1 className='projects'>Projects {props.Ppage}</h1>
             </div>
             <div className="pList">
-                <div className="pNo fadeUp dis">
+                <div className="impProject fadeUp dis">
                     <div style={{ display: "inline-block" }}>
                         <img className='imgs fadeUp' src={require('./img/ww2.png')} alt="h" />
                     </div>
                     <div style={{ display: "inline-block" }} className="Ptext">
                         <h1 className='fadeUp highlight'>Weatheria</h1>
-                        <p className='fadeUp ppa'>
+                        <p className='fadeUp ppa '>
                             You need to stay upto date with what is the weather around you .
                             This is a mordern day Weather website. I used the <span className='highlight'>Open-meteo Api</span> to fetch data.I am Currently improving it adding new features each day.
                             I used <span className='highlight'> Reactjs</span> and <span className='highlight'> TailwindCss</span> in this Project
@@ -35,7 +53,7 @@ export default function Projects(props) {
                         </div>
                     </div>
                 </div>
-                <div className={`pNo fadeUp p2No`}>
+                <div className={`impProject fadeUp projectEven`}>
                     <div style={{ display: "inline-block" }} className="Ptext p2" id='p2'>
                         <h1 className='fadeUp highlight'>Portfolio Website</h1>
                         <p className='fadeUp ppa' >I Just wrapped up making my portfolio website. I used ReactJS to this Website. This is a Fully <span className='highlight'> Responsive Website</span>. I Tried to make this as simple as possible for for the user to navigate through. I used
@@ -50,7 +68,7 @@ export default function Projects(props) {
                         <img className='imgs fadeUp' src={require('./img/pw.png')} alt="h" />
                     </div>
                 </div>
-                <div className="pNo fadeUp">
+                <div className="impProject fadeUp">
                     <div style={{ display: "inline-block" }}>
                         <img className='imgs fadeUp' src={require('./img/nc.png')} alt="h" />
                     </div>
@@ -63,7 +81,7 @@ export default function Projects(props) {
                         </div>
                     </div>
                 </div>
-                <div className={`${props.appear} p2No`}>
+                <div className={`${props.appear} projectEven`}>
                     <div style={{ display: "inline-block" }} className="Ptext p2" id='p2'>
                         <h1 className='fadeUp highlight'>To-do list</h1>
                         <p className='fadeUp ppa' >Forgeting your Task and let this free website Remember the tasks which are left unfinished and Focus on the Work Ahead of you. Filled with beautiful colors and a <span className='highlight'> Simple User interface </span></p>
@@ -88,7 +106,7 @@ export default function Projects(props) {
                         </div>
                     </div>
                 </div>
-                <div className={`${props.appear} p2No`}>
+                <div className={`${props.appear} projectEven`}>
                     <div style={{ display: "inline-block" }} className="Ptext p2" id='p2'>
                         <h1 className='fadeUp highlight'>Black Jack Game</h1>
                         <p className='fadeUp ppa' >Well who doesn't love , so on Sunday morning after completing my javascript course. I decided to put my skills to the test and I made this <span className='highlight'>easy</span> and <span className='highlight'> Fun</span> Black Jack game</p>

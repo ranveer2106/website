@@ -23,7 +23,7 @@ function App() {
         <Footer />
         <Routes>
           <Route exact path="/" element={<Body class="project" btn="btn" appear="dis" title="Home" />} />
-          <Route exact path="/projects" element={<Projects class="project" btn="btnd" appear="pNo fadeUp" title="projects" />} />
+          <Route exact path="/projects" element={<Projects class="project" btn="btnd" appear="impProject fadeUp" title="projects" />} />
         </Routes>
       </Router>
     </>
