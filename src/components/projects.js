@@ -40,12 +40,7 @@ export default function Projects(props) {
                     <div style={{ display: "inline-block" }} className="Ptext">
                         <h1 className='fadeUp highlight'>Weatheria</h1>
                         <p className='fadeUp ppa '>
-                            You need to stay upto date with what is the weather around you .
-                            This is a mordern day Weather website. I used the <span className='highlight'>Open-meteo Api</span> to fetch data.I am Currently improving it adding new features each day.
-                            I used <span className='highlight'> Reactjs</span> and <span className='highlight'> TailwindCss</span> in this Project
-                            It Forecast the weather of your <span className='highlight'>Current location</span>   and some popular cities.
-                            It also tells the weather of the Upcoming week.
-
+                            You need to stay up to date with the weather around you. This is a modern-day Weather website. I used the <span className='highlight'>Open-meteo API </span>  to fetch data. I am Currently improving it adding new features each day. I used <span className='highlight'> Reactjs</span> and <span className='highlight'> TailwindCss</span> in this Project It Forecast the weather of your <span className='highlight'>Current location</span>  and some popular cities. It also tells the climate of the upcoming week.
                         </p>
                         <div className='pLink fadeUp jcs'>
                             <a href="https://github.com/ranveer2106/weather"><i className="fab fa-github logos fadeUp" style={{ fontSize: "33px", marginRight: "1rem" }}></i></a>
@@ -56,7 +51,7 @@ export default function Projects(props) {
                 <div className={`impProject fadeUp projectEven`}>
                     <div style={{ display: "inline-block" }} className="Ptext p2" id='p2'>
                         <h1 className='fadeUp highlight'>Portfolio Website</h1>
-                        <p className='fadeUp ppa' >I Just wrapped up making my portfolio website. I used ReactJS to this Website. This is a Fully <span className='highlight'> Responsive Website</span>. I Tried to make this as simple as possible for for the user to navigate through. I used
+                        <p className='fadeUp ppa' > I used ReactJS to this Website. This is a Fully <span className='highlight'> Responsive Website</span>. I made this as simple as possible for the user to navigate through. I used
                             <span className='highlight'> Netlify </span> to Host this website. </p>
                         <div className='pLink fadeUp jcs' style={{ justifyContent: "start" }}>
                             <a href="https://github.com/ranveer2106/website"><i className="fab fa-github logos fadeUp" style={{ fontSize: "33px", marginRight: "1rem" }}></i></a>
