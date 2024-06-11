@@ -20,9 +20,9 @@ function Body(props) {
                 <div id='text'>
                     <div className="l1 fadeUp ">Hi my name is Ranvir</div>
                     <div className="l2 fadeUp ">I build Stuff for the internet</div>
-                    <div className="l3 fadeUp ">I'm a <span className="highlight"> front-end Engineer </span>. I like to build <span className="highlight">
-                        Websites</span>  and play with new <span className="highlight">Technology</span> .I also help local businesses in taking their business online. I love to work on <span className="highlight">Javascript</span>  and <span className="highlight">
-                            Python</span>. I'm Currently pursuing <span className='highlight'>B.tech Degree</span> in <span className='highlight'>Computer Science</span> At VIT</div>
+                    <div className="l3 fadeUp ">I'm a <span className="highlight"> Software Engineer </span>. I like to build <span className="highlight">
+                        Websites</span>  and play with new <span className="highlight">Technology</span>. I work on Java and Sql projects .I also help local businesses in taking their business online. I love to work on <span className="highlight">Java</span>, <span className="highlight">Python</span>  and <span className="highlight">
+                            Javascript</span>. I'm Currently pursuing <span className='highlight'>B.tech Degree</span> in <span className='highlight'>Computer Science</span> At VIT</div>
                 </div>
             </div>
             <About />
