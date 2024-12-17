@@ -1,13 +1,25 @@
 import React from 'react'
+import Block from './block'
+
 
 export default function About() {
     return (
         <>
             <div className="container fadeUp" id='about'>
+                <Block>
+
                 <h1 className='about'>About me</h1>
-                <img className='img fadeUp' src={require('./round.png')} alt="h" />
+                </Block>
+                <Block>
+                    <div className='disimg'>
+                        
+                <img className='img dispimg fadeUp' src={require('./round.png')} alt="h" />
+                    </div>
+                    
+                </Block>
+                <Block>
                 <div className='fadeUp'>
-                    <h3>
+                    <h3 className='aboutpara'>
                         Knowledgeable Front End Developer adept at creating successful websites that meet
                         customer needs. Specializing in collaborating with Any type of customer to gather
                         requirements, produce plans and improve designs for usability and functionality.
@@ -19,8 +31,14 @@ export default function About() {
 
                     </h3>
                 </div>
+                </Block>
+                <Block>
                 <h1 className='tech'>Technologies & Skills</h1>
+                </Block>
+                    
                 <div className="skills">
+                    <Block>
+
                     <div className='skill'>
                         <ul>
                             <li>HTML/CSS</li>
@@ -29,6 +47,8 @@ export default function About() {
                             <li>BOOTSTRAP/TailwindCss</li>
                         </ul>
                     </div>
+                    </Block>
+                    <Block>
                     <div className='skill'>
                         <ul>
                             <li>Figma</li>
@@ -36,7 +56,9 @@ export default function About() {
                             <li>GIT/Github</li>
                             <li>NodeJs</li>
                         </ul>
+                        
                     </div>
+                    </Block>
                 </div>
 
             </div>

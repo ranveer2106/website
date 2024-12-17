@@ -5,6 +5,7 @@ import {
 
 } from "react";
 import "./component.css"
+import Block from './block';
 
 
 
@@ -25,7 +26,9 @@ export default function Projects(props) {
                 <h1 className='projects'>Projects {props.Ppage}</h1>
             </div>
             <div className="pList">
-                <div className="impProject fadeUp ">
+                <Block>
+
+                <div className="impProject fadeUp block">
                     <div className='pimg' style={{ display: "inline-block" }}>
                         <img className='imgs fadeUp' src={require('./img/ww2.png')} alt="h" />
                     </div>
@@ -46,7 +49,9 @@ export default function Projects(props) {
                         </div>
                     </div>
                 </div>
-                <div className="impProject fadeUp projectEven">
+                </Block>
+                <Block>
+                <div className="impProject fadeUp projectEven block">
                     <div style={{ display: "inline-block" }} className="Ptext">
                         <h1 className='fadeUp highlight'>Weatheria</h1>
                         <p className='fadeUp ppa '>
@@ -61,7 +66,10 @@ export default function Projects(props) {
                         <img className='imgs fadeUp' src={require('./img/ww2.png')} alt="h" />
                     </div>
                 </div>
-                <div className={`impProject fadeUp `}>
+                </Block>
+                <Block>
+                    
+                <div className={`impProject fadeUp block`}>
                     <div className='pimg' style={{ display: "inline-block" }}>
                         <img className='imgs fadeUp' src={require('./img/pw.png')} alt="h" />
                     </div>
@@ -77,7 +85,11 @@ export default function Projects(props) {
 
                     
                 </div>
-                <div className={`${props.appear} fadeUp projectEven`}>
+                </Block>
+
+                <Block>
+
+                <div className={`${props.appear} block fadeUp projectEven`}>
                     
                     <div style={{ display: "inline-block" }} className="Ptext">
                         <h1 className='fadeUp highlight'>News Chimp</h1>
@@ -91,7 +103,10 @@ export default function Projects(props) {
                         <img className='imgs fadeUp' src={require('./img/nc.png')} alt="h" />
                     </div>
                 </div>
-                <div className={`${props.appear} `}>
+                </Block>
+                <Block>
+
+                <div className={`${props.appear} block`}>
                     <div className='pimg' style={{ display: "inline-block" }}>
                         <img className='imgs fadeUp' src={require('./img/tdl.png')} alt="h" />
                     </div>
@@ -105,7 +120,10 @@ export default function Projects(props) {
 
                     
                 </div>
-                <div className={`${props.appear} projectEven`}>
+                </Block>
+                <Block>
+
+                <div className={`${props.appear} projectEven block`}>
                     
                     <div  style={{ display: "inline-block" }} className="Ptext">
                         <h1 className='fadeUp highlight'>Text editor</h1>
@@ -118,7 +136,10 @@ export default function Projects(props) {
                         <img className='imgs fadeUp' src={require('./img/tm.png')} alt="h" />
                     </div>
                 </div>
-                <div className={`${props.appear} `}>
+                </Block>
+                <Block>
+
+                <div className={`${props.appear} block`}>
                     <div className='pimg' style={{ display: "inline-block" }}>
                         <img className='imgs fadeUp' src={require('./img/bj.png')} alt="h" />
                     </div>
@@ -132,12 +153,16 @@ export default function Projects(props) {
 
                     
                 </div>
+                </Block>
 
 
             </div>
+            <Block>
+                
             <div className='sLink'>
                 <Link to="/projects" className="showMore fadeUp" id={props.btn}>SHOW MORE</Link>
             </div>
+            </Block>
         </div>
     )
 }

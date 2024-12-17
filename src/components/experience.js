@@ -1,11 +1,17 @@
 import React from 'react'
+import Block from './block'
 
 export default function Experience() {
     return (
         <>
-            <div className="container" id='exp'>
-                <h1 style={{ color: "#00FFF5" }}>Experiences & Certifications</h1>
+            <div className="container block" id='exp'>
+                <Block>
+
+                <h1 className='exphead' style={{ color: "#00FFF5" }}>Experiences & Certifications</h1>
+                </Block>
                 <div>
+                    <Block>
+
                     <div style={{ display: "flex" }} id="experience">
                         <div id="exph">
                             <img className='imgs fadeUp' src={require('./img/gc.png')} alt="h" />
@@ -18,6 +24,7 @@ export default function Experience() {
                             </p>
                         </div>
                     </div>
+                    </Block>
                 </div>
             </div>
         </>

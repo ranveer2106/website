@@ -103,3 +103,17 @@ html {
 
   border-radius: 6px;
 }
+
+
+
+
+.scroll-animation {
+  opacity: 0;
+  transform: translateX(-60px); /* Start 40px lower */
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.scroll-animation.fade-in {
+  opacity: 1;
+  transform: translateX(0); /* Move to original position */
+}
