@@ -6,32 +6,38 @@ const Block = ({ children }) => {
   const ref = useRef();
 
   useEffect(() => {
-    // Create the observer
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setIsVisible(true); // Set to true when the element is visible
-        } else {
-          setIsVisible(false); // Set to false when the element is not visible
-        }
-      },
-      {
-        threshold: 0.1, // Trigger when 10% of the component is in view
-      }
-    );
-
-    // Ensure ref.current exists before observing
-    if (ref.current) {
-      observer.observe(ref.current);
-    }
-
-    // Cleanup function
-    return () => {
-      if (ref.current) {
-        observer.unobserve(ref.current); // Clean up the observer
+    // Callback function moved inside useEffect
+    const callbackFunction = ([entry]) => {
+      if (entry.isIntersecting) {
+        setIsVisible(true); // Set to true when the element is visible
+      } else {
+        setIsVisible(false); // Set to false when the element is not visible
       }
     };
-  }, []); // Empty dependency array ensures this runs once
+
+    // Options for the IntersectionObserver
+    const options = {
+      threshold: 0.1, // Trigger when 10% of the component is in view
+    };
+
+    let observerRefValue = null; // Temporary variable for the ref value
+
+    // Create the IntersectionObserver instance
+    const observer = new IntersectionObserver(callbackFunction, options);
+
+    // If the ref element exists, observe it
+    if (ref.current) {
+      observer.observe(ref.current);
+      observerRefValue = ref.current;
+    }
+
+    // Cleanup function: unobserve when the component unmounts or ref changes
+    return () => {
+      if (observerRefValue) {
+        observer.unobserve(observerRefValue);
+      }
+    };
+  }, []); // Empty dependency array ensures the effect runs once
 
   return (
     <div
