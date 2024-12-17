@@ -18,7 +18,7 @@ export default function Navbar(props) {
       <div>
         <h1 className='fadeUp'><Link id='title' className='link' to="/">{props.title}</Link></h1>
       </div>
-      <div id='options' className={`options ${isActive ? "NotActive" : "active"}`}>
+      <div id='options' className={` ${isActive ? "NotActive" : "active"}`}>
         <ul className={`options ${isActive ? "NotActive" : "active"}`}>
           <li className='items fadeUp'><Link className='link navl' to="/">Home</Link></li>
           <li className='items fadeUp' ><a className='link navl' rel="noreferrer" target="_blank" href="https://drive.google.com/file/d/11O5ZZvjgl-qxLpIDoeGUnj-yAQ5OZeRS/view?usp=sharing">Resume</a></li>

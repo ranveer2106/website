@@ -1,6 +1,7 @@
 import './App.css';
 import Footer from './components/footer';
 import Body from './components/homebody';
+import FontLoader from './components/loader';
 import Navbar from './components/navbar';
 import Projects from './components/projects';
 import Sidebars from './components/sidebars';
@@ -18,7 +19,7 @@ function App() {
   return (
     <>
       <Router>
-
+        <FontLoader>
         <Navbar title="RANVIR" />
         {/* <Animate /> */}
         <Sidebars />
@@ -27,6 +28,7 @@ function App() {
           <Route exact path="/" element={<Body class="project" btn="btn" appear="dis" title="Home" />} />
           <Route exact path="/projects" element={<Projects class="project" btn="btnd" appear="impProject fadeUp" title="projects" />} />
         </Routes>
+        </FontLoader>
       </Router>
     </>
   );

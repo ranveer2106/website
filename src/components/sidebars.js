@@ -14,7 +14,7 @@ function Sidebars() {
             </div>
             <div id="email"  >
                 <div className='fadeUp'>
-                    <a className='fadeUp' target="_blank" rel="noreferrer" href="mailto:ranveerbhatti2106@gmail.com">ranveerbhatti2106@gmail.com</a>
+                    <a className='fadeUp' target="_blank" rel="noreferrer" href="mailto:ranvir.s.bhatti@gmail.com">ranvir.s.bhatti@gmail.com</a>
                 </div>
 
             </div>
