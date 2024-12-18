@@ -7,7 +7,7 @@ export default function Experience() {
             <div className="container block" id='exp'>
                 <Block>
 
-                <h1 className='exphead' style={{ color: "#00FFF5" }}>Experiences & Certifications</h1>
+                <h1 className='exphead' style={{ color: "#00FFF5" }}>Certifications</h1>
                 </Block>
                 <div>
                     <Block>

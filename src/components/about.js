@@ -41,20 +41,22 @@ export default function About() {
 
                     <div className='skill'>
                         <ul>
-                            <li>HTML/CSS</li>
+                            <li>REACT.JS</li>
                             <li>JavaScript</li>
-                            <li>REACTJS</li>
                             <li>BOOTSTRAP/TailwindCss</li>
+                            <li>HTML/CSS</li>
+                            <li>Typescript</li>
                         </ul>
                     </div>
                     </Block>
                     <Block>
                     <div className='skill'>
                         <ul>
-                            <li>Figma</li>
                             <li>PYTHON</li>
+                            <li>C++</li>
+                            <li>MongoDB</li>
                             <li>GIT/Github</li>
-                            <li>NodeJs</li>
+                            <li>Node.Js</li>
                         </ul>
                         
                     </div>

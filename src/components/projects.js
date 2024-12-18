@@ -28,9 +28,9 @@ export default function Projects(props) {
             <div className="pList">
                 <Block>
 
-                <div className="impProject fadeUp block">
+                <div className="flexwrap impProject fadeUp block">
                     <div className='pimg' style={{ display: "inline-block" }}>
-                        <img className='imgs fadeUp' src={require('./img/ww2.png')} alt="h" />
+                        <img className='imgs fadeUp' src={require('./img/foodys.png')} alt="h" />
                     </div>
                     <div style={{ display: "inline-block" }} className="Ptext">
                         <h1 className='fadeUp highlight'>Foodys</h1>
@@ -44,14 +44,14 @@ export default function Projects(props) {
 
                         </p>
                         <div className='pLink fadeUp jcs'>
-                            <a href="https://github.com/ranveer2106/weather"><i className="fab fa-github logos fadeUp" style={{ fontSize: "33px", marginRight: "1rem" }}></i></a>
-                            <a href="https://ranveer2106.github.io/weather/"><i className=" fa fa-external-link logos fadeUp" style={{ fontSize: "33px" }}></i></a>
+                            <a href="https://github.com/ranveer2106/food-order-website"><i className="fab fa-github logos fadeUp" style={{ fontSize: "33px", marginRight: "1rem" }}></i></a>
+                            <a href="https://foodys.onrender.com/"><i className=" fa fa-external-link logos fadeUp" style={{ fontSize: "33px" }}></i></a>
                         </div>
                     </div>
                 </div>
                 </Block>
                 <Block>
-                <div className="impProject fadeUp projectEven block">
+                <div className=" impProject fadeUp projectEven block">
                     <div style={{ display: "inline-block" }} className="Ptext">
                         <h1 className='fadeUp highlight'>Weatheria</h1>
                         <p className='fadeUp ppa '>
@@ -69,7 +69,7 @@ export default function Projects(props) {
                 </Block>
                 <Block>
                     
-                <div className={`impProject fadeUp block`}>
+                <div className={`flexwrap impProject fadeUp block`}>
                     <div className='pimg' style={{ display: "inline-block" }}>
                         <img className='imgs fadeUp' src={require('./img/pw.png')} alt="h" />
                     </div>
@@ -89,7 +89,7 @@ export default function Projects(props) {
 
                 <Block>
 
-                <div className={`${props.appear} block fadeUp projectEven`}>
+                <div className={` ${props.appear} block fadeUp projectEven`}>
                     
                     <div style={{ display: "inline-block" }} className="Ptext">
                         <h1 className='fadeUp highlight'>News Chimp</h1>
@@ -106,7 +106,7 @@ export default function Projects(props) {
                 </Block>
                 <Block>
 
-                <div className={`${props.appear} block`}>
+                <div className={`flexwrap ${props.appear} block`}>
                     <div className='pimg' style={{ display: "inline-block" }}>
                         <img className='imgs fadeUp' src={require('./img/tdl.png')} alt="h" />
                     </div>
@@ -123,7 +123,7 @@ export default function Projects(props) {
                 </Block>
                 <Block>
 
-                <div className={`${props.appear} projectEven block`}>
+                <div className={` ${props.appear} projectEven block`}>
                     
                     <div  style={{ display: "inline-block" }} className="Ptext">
                         <h1 className='fadeUp highlight'>Text editor</h1>
@@ -139,7 +139,7 @@ export default function Projects(props) {
                 </Block>
                 <Block>
 
-                <div className={`${props.appear} block`}>
+                <div className={`flexwrap ${props.appear} block`}>
                     <div className='pimg' style={{ display: "inline-block" }}>
                         <img className='imgs fadeUp' src={require('./img/bj.png')} alt="h" />
                     </div>

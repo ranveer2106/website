@@ -230,7 +230,7 @@ ul {
 
 .img:hover {
     border-radius: 500px;
-    filter: drop-shadow(0px 0px 15px gray);
+    filter: drop-shadow(0px 0px 15px #00FFF5);
 }
 
 .text {
@@ -329,7 +329,9 @@ ul {
 }
 
 .imgs {
-    width: 300px;
+    width: 39rem;
+    height: 20rem;
+    object-fit: cover;
     border-radius: 10px;
     border: 2px solid transparent;
 }
@@ -356,7 +358,10 @@ ul {
 
 .Ptext {
     display: flex;
-    margin: 1rem;
+    margin:0rem 2rem;
+}
+.Ptext h1{
+    text-align: left;
 }
 
 .pLink {
@@ -450,6 +455,8 @@ ul {
 
 .ppa {
     font-size: 1.3rem;
+    text-align: left;
+    min-width: 20rem;
 }
 
 
@@ -493,6 +500,25 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+@media (max-width:1600px){
+    .project{
+        width: 85%;
+        /* margin: ; */
+    }
+    .imgs{
+        width: 30rem;
+    }
+}
+
+@media (max-width:1100px){
+    .flexwrap{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .projectEven {
+        flex-wrap: wrap-reverse;
+    }
 }
 
 @media(max-width:768px) {
@@ -622,6 +648,7 @@ ul {
 
     .imgs {
         width: 100%;
+        height: auto;
         justify-content: center;
         text-align: center;
         margin: auto;
@@ -643,9 +670,7 @@ ul {
         text-align: left;
     }
 
-    .projectEven {
-        flex-wrap: wrap-reverse;
-    }
+   
 
     .footer {
         display: flex;
