@@ -463,6 +463,8 @@ ul {
     display: flex;
     justify-content: center;
 }
+
+
 /* .impProject> */
 
 /* .loader{/ */
@@ -494,6 +496,10 @@ ul {
 }
 
 @media(max-width:768px) {
+
+    #title{
+        margin: 0rem 4rem 0rem 1rem;
+    }
     .hamburger {
         display: block;
     }
