@@ -557,6 +557,7 @@ ul {
 
     .img {
         margin: auto;
+        margin-bottom: 2rem;
         width: 200px;
     }
 
@@ -569,6 +570,13 @@ ul {
     .tech {
         font-size: 2rem;
     }
+    .disimg{
+        margin: 0%;
+    }
+    .aboutpara{
+        font-size: 1rem;
+        width: fit-content;
+    }
 
     .skill ul li {
         list-style: square;
@@ -576,11 +584,11 @@ ul {
     }
 
     .tech {
-        font-size: 1rem;
+        font-size: 2rem;
     }
 
     .about {
-        font-size: 1rem;
+        font-size: 3rem;
     }
 
     .skill ul {
