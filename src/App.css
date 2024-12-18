@@ -65,6 +65,16 @@ body {
   display: none;
 }
 
+@media (max-width:1600px){
+  .project{
+      width: 85%;
+      /* margin: ; */
+  }
+  .imgs{
+      width: 30rem;
+  }
+}
+
 @media(max-width:768px) {
   .project {
     width: 100%;
@@ -116,4 +126,15 @@ html {
 .scroll-animation.fade-in {
   opacity: 1;
   transform: translateX(0); /* Move to original position */
+}
+
+@media (max-width:500px){
+
+  .pjt{
+    margin: 1rem 0rem !important;
+}
+.pimg{
+  padding: 0px 1rem;
+}
+
 }

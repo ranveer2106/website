@@ -28,7 +28,7 @@ export default function Projects(props) {
             <div className="pList">
                 <Block>
 
-                <div className="flexwrap impProject fadeUp block">
+                <div className="pjt flexwrap impProject fadeUp block">
                     <div className='pimg' style={{ display: "inline-block" }}>
                         <img className='imgs fadeUp' src={require('./img/foodys.png')} alt="h" />
                     </div>
@@ -51,7 +51,7 @@ export default function Projects(props) {
                 </div>
                 </Block>
                 <Block>
-                <div className=" impProject fadeUp projectEven block">
+                <div className="pjt impProject fadeUp projectEven block">
                     <div style={{ display: "inline-block" }} className="Ptext">
                         <h1 className='fadeUp highlight'>Weatheria</h1>
                         <p className='fadeUp ppa '>
@@ -69,7 +69,7 @@ export default function Projects(props) {
                 </Block>
                 <Block>
                     
-                <div className={`flexwrap impProject fadeUp block`}>
+                <div className={`pjt flexwrap impProject fadeUp block`}>
                     <div className='pimg' style={{ display: "inline-block" }}>
                         <img className='imgs fadeUp' src={require('./img/pw.png')} alt="h" />
                     </div>
@@ -89,7 +89,7 @@ export default function Projects(props) {
 
                 <Block>
 
-                <div className={` ${props.appear} block fadeUp projectEven`}>
+                <div className={`pjt ${props.appear} block fadeUp projectEven`}>
                     
                     <div style={{ display: "inline-block" }} className="Ptext">
                         <h1 className='fadeUp highlight'>News Chimp</h1>
@@ -106,7 +106,7 @@ export default function Projects(props) {
                 </Block>
                 <Block>
 
-                <div className={`flexwrap ${props.appear} block`}>
+                <div className={`pjt flexwrap ${props.appear} block`}>
                     <div className='pimg' style={{ display: "inline-block" }}>
                         <img className='imgs fadeUp' src={require('./img/tdl.png')} alt="h" />
                     </div>
@@ -123,7 +123,7 @@ export default function Projects(props) {
                 </Block>
                 <Block>
 
-                <div className={` ${props.appear} projectEven block`}>
+                <div className={`pjt ${props.appear} projectEven block`}>
                     
                     <div  style={{ display: "inline-block" }} className="Ptext">
                         <h1 className='fadeUp highlight'>Text editor</h1>
@@ -139,7 +139,7 @@ export default function Projects(props) {
                 </Block>
                 <Block>
 
-                <div className={`flexwrap ${props.appear} block`}>
+                <div className={`pjt flexwrap ${props.appear} block`}>
                     <div className='pimg' style={{ display: "inline-block" }}>
                         <img className='imgs fadeUp' src={require('./img/bj.png')} alt="h" />
                     </div>

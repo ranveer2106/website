@@ -501,15 +501,7 @@ ul {
     justify-content: center;
     align-items: center;
 }
-@media (max-width:1600px){
-    .project{
-        width: 85%;
-        /* margin: ; */
-    }
-    .imgs{
-        width: 30rem;
-    }
-}
+
 
 @media (max-width:1100px){
     .flexwrap{
@@ -708,7 +700,7 @@ ul {
         box-shadow: #00FFF5 0px 2px 8px;
         z-index: 1;
     }
-
+    
     #email {
         display: none;
     }
@@ -720,7 +712,19 @@ ul {
     .logos {
         margin: 5px 20px;
     }
+    .pimg{
+        margin: auto;
+    }
 }
+@media(max-width:768px) {
+    .project {
+      width: 100% !important;
+    }
+  
+    .pNo {
+      margin: 0rem;
+    }
+  }
 
 @media(max-width:885px) {
     #experience {
