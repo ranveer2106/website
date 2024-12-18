@@ -13,7 +13,7 @@
     padding: 0.5rem;
     box-shadow: #00FFF5 0px 2px 8px;
     position: sticky;
-    top: 0rem;
+    top: -0.1rem;
     background-color: #222831;
     z-index: 1;
 }
