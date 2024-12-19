@@ -329,11 +329,12 @@ ul {
 }
 
 .imgs {
-    width: 39rem;
+    width: 33rem;
     height: 20rem;
     object-fit: cover;
     border-radius: 10px;
     border: 2px solid transparent;
+    object-position: center;
 }
 
 .imgs:hover {
