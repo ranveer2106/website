@@ -5,6 +5,7 @@ import FontLoader from './components/loader';
 import Navbar from './components/navbar';
 import Projects from './components/projects';
 import Sidebars from './components/sidebars';
+import Cpage from './components/cpage';
 // import Animate from "./components/animate";
 // import { HashRouter } from "react-router-dom";
 import {
@@ -20,14 +21,15 @@ function App() {
     <>
       <Router>
         <FontLoader>
-        <Navbar title="RANVIR" />
-        {/* <Animate /> */}
-        <Sidebars />
-        <Footer />
-        <Routes>
-          <Route exact path="/" element={<Body class="project" btn="btn" appear="dis" title="Home" />} />
-          <Route exact path="/projects" element={<Projects class="project" btn="btnd" appear="impProject fadeUp" title="projects" />} />
-        </Routes>
+          <Navbar title="RANVIR" />
+          {/* <Animate /> */}
+          <Sidebars />
+          <Footer />
+          <Routes>
+            <Route exact path="/" element={<Body class="project" btn="btn" appear="dis" title="Home" />} />
+            <Route exact path="/projects" element={<Projects class="project" btn="btnd" appear="impProject fadeUp" title="projects" />} />
+            <Route exact path="/contact" element={<Cpage title="contact" />} />
+          </Routes>
         </FontLoader>
       </Router>
     </>

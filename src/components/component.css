@@ -32,6 +32,7 @@
     font-family: 'Tiro Gurmukhi', serif;
     /* font-family: 'Baloo Bhaijaan 2', cursive; */
 }
+
 /* #options{
     margin: auto;
 } */
@@ -215,13 +216,13 @@ ul {
 
 .img {
     width: 300px;
-    margin:2rem auto;
+    margin: 2rem auto;
     margin-bottom: 2rem;
     border-radius: 500px;
     border: 4px solid #00FFF5;
 }
 
-.disimg{
+.disimg {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -303,11 +304,13 @@ ul {
     margin: 2rem 0rem;
     color: #00FFF5;
 }
-.exphead{
+
+.exphead {
 
     margin-bottom: 3rem;
 }
-.aboutpara{
+
+.aboutpara {
     font-size: 1.5rem;
     font-weight: normal;
 }
@@ -359,9 +362,10 @@ ul {
 
 .Ptext {
     display: flex;
-    margin:0rem 2rem;
+    margin: 0rem 2rem;
 }
-.Ptext h1{
+
+.Ptext h1 {
     text-align: left;
 }
 
@@ -407,6 +411,56 @@ ul {
     color: white;
 }
 
+.contactP {
+    display: flex;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 40rem;
+    width: 80%;
+    color: white;
+}
+
+.work {
+    font-family: 'baloo bhaijaan 2', cursive;
+    border-bottom: #00FFF5 2px solid;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.workexp {
+    display: flex;
+    text-align: left;
+}
+
+.workexp div {
+    color: white;
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+.workimg {
+    width: 18rem;
+    height: 10rem;
+    margin: 2rem;
+}
+
+.work h1 {
+    font-family: 'baloo bhaijaan 2', cursive;
+    text-align: center;
+    font-size: 4rem;
+    margin: auto;
+}
+
+.contactP h1 {
+    font-size: 3rem;
+}
+
 #contactP h1 {
     font-size: 3rem;
 }
@@ -443,7 +497,7 @@ ul {
     font-size: 2rem;
     align-items: center;
     justify-content: center;
-    width: 70%;
+    width: 80%;
 }
 
 .highlight {
@@ -466,36 +520,60 @@ ul {
 
 }
 
-.pimg{
+.pimg {
     margin: 0px auto;
     display: flex;
     justify-content: center;
 }
 
+.certimg {
+    width: 25rem;
+    height: auto;
+}
 
 /* .impProject> */
 
 /* .loader{/ */
-    /* HTML: <div class="loader"></div> */
+/* HTML: <div class="loader"></div> */
 .loader {
     width: 55px;
     aspect-ratio: 1;
-    --g1:conic-gradient(from  90deg at 3px  3px ,#0000 90deg,#00FFF5 0);
-    --g2:conic-gradient(from -90deg at 22px 22px,#0000 90deg,#00FFF5 0);
-    background:var(--g1),var(--g1),var(--g1), var(--g2),var(--g2),var(--g2);
+    --g1: conic-gradient(from 90deg at 3px 3px, #0000 90deg, #00FFF5 0);
+    --g2: conic-gradient(from -90deg at 22px 22px, #0000 90deg, #00FFF5 0);
+    background: var(--g1), var(--g1), var(--g1), var(--g2), var(--g2), var(--g2);
     background-size: 25px 25px;
     background-repeat: no-repeat;
     animation: l7 1.5s infinite;
-  }
-  @keyframes l7 {
-    0%   {background-position:0    0   ,0 100%,100% 100% }
-    25%  {background-position:100% 0   ,0 100%,100% 100% }
-    50%  {background-position:100% 0   ,0 0   ,100% 100% }
-    75%  {background-position:100% 0   ,0 0   ,0    100% }
-    100% {background-position:100% 100%,0 0   ,0    100% }
-  }
+}
 
-.loaderbox{
+.work {
+    width: 80%;
+    color: #00FFF5;
+}
+
+@keyframes l7 {
+    0% {
+        background-position: 0 0, 0 100%, 100% 100%
+    }
+
+    25% {
+        background-position: 100% 0, 0 100%, 100% 100%
+    }
+
+    50% {
+        background-position: 100% 0, 0 0, 100% 100%
+    }
+
+    75% {
+        background-position: 100% 0, 0 0, 0 100%
+    }
+
+    100% {
+        background-position: 100% 100%, 0 0, 0 100%
+    }
+}
+
+.loaderbox {
     width: 100%;
     height: 100vh;
     display: flex;
@@ -504,21 +582,35 @@ ul {
 }
 
 
-@media (max-width:1100px){
-    .flexwrap{
+@media (max-width:1100px) {
+    .flexwrap {
         display: flex;
         flex-wrap: wrap;
     }
+
     .projectEven {
         flex-wrap: wrap-reverse;
     }
 }
 
+@media(max-width:950px) {
+    .certificates {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .work {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
 @media(max-width:768px) {
 
-    #title{
+    #title {
         margin: 0rem 4rem 0rem 1rem;
     }
+
     .hamburger {
         display: block;
     }
@@ -595,10 +687,12 @@ ul {
     .tech {
         font-size: 2rem;
     }
-    .disimg{
+
+    .disimg {
         margin: 0%;
     }
-    .aboutpara{
+
+    .aboutpara {
         font-size: 1rem;
         width: fit-content;
     }
@@ -663,7 +757,7 @@ ul {
         text-align: left;
     }
 
-   
+
 
     .footer {
         display: flex;
@@ -701,7 +795,7 @@ ul {
         box-shadow: #00FFF5 0px 2px 8px;
         z-index: 1;
     }
-    
+
     #email {
         display: none;
     }
@@ -713,19 +807,27 @@ ul {
     .logos {
         margin: 5px 20px;
     }
-    .pimg{
+
+    .pimg {
         margin: auto;
     }
 }
+
+.certificates {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
 @media(max-width:768px) {
     .project {
-      width: 100% !important;
+        width: 100% !important;
     }
-  
+
     .pNo {
-      margin: 0rem;
+        margin: 0rem;
     }
-  }
+}
+
 
 @media(max-width:885px) {
     #experience {
@@ -800,4 +902,56 @@ ul {
     width: 60rem;
     height: 60rem;
     animation: App-logo-spin infinite 5s linear;
+}
+
+@media(max-width:768px) {
+    .work {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .clogo {
+        margin: auto;
+        /* margin-bottom: 1rem; */
+    }
+
+    .workexp {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .workimg {
+        width: 15rem;
+        height: 10rem;
+    }
+
+    .work h1 {
+        font-size: 2rem;
+    }
+
+    .certname {
+        font-size: 1.5rem;
+    }
+
+    .Ptext {
+        margin: 0rem;
+        /* padding: 1rem; */
+        /* width: 100%; */
+        max-width: 100%;
+    }
+
+    .pimg {
+        margin: 0%;
+    }
+
+    .Ptext h1 {
+        padding-left: 1rem;
+    }
+
+    .ppa {
+        min-width: 0px !important;
+        padding: 0rem 1rem;
+    }
 }

@@ -23,7 +23,7 @@ export default function Navbar(props) {
           <li className='items fadeUp'><Link className='link navl' to="/">Home</Link></li>
           <li className='items fadeUp' ><a className='link navl' rel="noreferrer" target="_blank" href="https://drive.google.com/file/d/1rYNUYKZhOxU2RYO1YLrW9dwKak4cq1YC/view?usp=sharing">Resume</a></li>
           <li className='items fadeUp'><Link className='link navl' to="/projects">Projects</Link></li>
-          <li className='items fadeUp'><a className='link navl' href="mailto:ranveerbhatti2106@gmail.com">Contact</a></li>
+          <li className='items fadeUp'><Link className='link navl' to="/contact">Contact</Link></li>
         </ul>
       </div>
       <div className={`hamburger ${isActive ? "notActive" : "active"}`} onClick={print} >
