@@ -34,8 +34,9 @@ function Body(props) {
                         <Block>
 
                             <div className="l3 fadeUp ">I'm a <span className="highlight"> Software Engineer </span>. I like to build <span className="highlight">
-                                Websites</span>  and play with new <span className="highlight">Technology</span>. I work on Java and Sql projects .I also help local businesses in taking their business online. I love to work on <span className="highlight">Java</span>, <span className="highlight">Python</span>  and <span className="highlight">
-                                    Javascript</span>. I'm Currently pursuing <span className='highlight'>B.tech Degree</span> in <span className='highlight'>Computer Science</span> At VIT</div>
+                                Websites</span>  and play with new <span className="highlight">Technology</span>. I love working on  projects .I also help local businesses in taking their business online.
+                                 I love to work on <span className="highlight">Javascript</span>, <span className="highlight">Python</span>  and <span className="highlight">
+                                    C++</span>. I'm Currently pursuing <span className='highlight'>B.tech Degree</span> in <span className='highlight'>Computer Science</span> At VIT</div>
                         </Block>
                     </div>
                 </Block>
