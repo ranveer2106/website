@@ -18,7 +18,7 @@ const Work = () => {
                             Utilized modern web technologies such as HTML, CSS, JavaScript, and frameworks like React.js to build user-friendly interfaces.
                             Integrated backend APIs with frontend interfaces to implement dynamic features and seamless data flow.
                             Conducted testing and debugging to ensure website functionality and resolved issues to enhance user experience.
-                            Gained experience in version control systems like Git and collaborative development workflows. className="highlight"</p>
+                            Gained experience in version control systems like Git and collaborative development workflows. </p>
                     </div>
                 </div>
             </div>
