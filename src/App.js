@@ -6,8 +6,10 @@ import Navbar from './components/navbar';
 import Projects from './components/projects';
 import Sidebars from './components/sidebars';
 import Cpage from './components/cpage';
+
 // import Animate from "./components/animate";
 // import { HashRouter } from "react-router-dom";
+
 import {
   BrowserRouter as Router,
   Routes,
