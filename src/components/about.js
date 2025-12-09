@@ -43,9 +43,11 @@ export default function About() {
                             <ul>
                                 <li>REACT.JS</li>
                                 <li>JavaScript</li>
-                                <li>BOOTSTRAP/TailwindCss</li>
-                                <li>HTML/CSS</li>
+                                <li>TailwindCss</li>
+                                <li>GOlang</li>
                                 <li>Typescript</li>
+                                <li>HTML/CSS</li>
+
                             </ul>
                         </div>
                     </Block>
@@ -53,10 +55,12 @@ export default function About() {
                         <div className='skill'>
                             <ul>
                                 <li>PYTHON</li>
-                                <li>C++</li>
-                                <li>MongoDB</li>
-                                <li>GIT/Github</li>
+                                <li>MongoDB/SQL</li>
+                                <li>GIT</li>
                                 <li>Node.Js</li>
+                                <li>C++</li>
+                                <li>Numpy/Pandas</li>
+
                             </ul>
 
                         </div>

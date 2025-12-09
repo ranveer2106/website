@@ -289,13 +289,14 @@ ul {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    margin: 0rem 1rem;
+    margin: 0rem 2rem;
 }
 
 .skill ul li {
     list-style: square;
     font-size: 2rem;
     font-family: 'Baloo Bhaijaan 2', cursive;
+    white-space: nowrap;
 }
 
 .tech {
