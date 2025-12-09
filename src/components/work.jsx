@@ -17,8 +17,8 @@ const Work = () => {
             />
           </div>
           <div>
-            <h2 className="highlight">Associate technical consultant</h2>
             <h4 className="highlight">Razorpay</h4>
+            <h4 className="highlight">Associate technical consultant</h4>
             <h4 className="highlight">AUG 2025 - Present </h4>
             <p>
               Developed backend services & automation scripts using Node.js and
@@ -42,8 +42,8 @@ const Work = () => {
             />
           </div>
           <div>
-            <h2 className="highlight">Intern</h2>
-            <h4 className="highlight">Sjain Ventures - Internship</h4>
+            <h2 className="highlight">Sjain Ventures</h2>
+            <h4 className="highlight">Intern</h4>
             <h4 className="highlight">Sep 2024 - Present </h4>
             <p>
               Collaborated with cross-functional teams to design, develop, and
