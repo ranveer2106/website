@@ -36,14 +36,13 @@ function Body(props) {
                     </div> */}
           <div id="text">
             <Block>
-              <div className="l1 fadeUp">
-                Hi my name is Ranvir
-              </div>
+              <div className="l1 fadeUp">Hi my name is Ranvir</div>
             </Block>
 
             <Block>
               <div className="l2 fadeUp">
-                I ask questions, challenge assumptions, and build better products.
+                I ask questions, challenge assumptions, and build better
+                products.
               </div>
             </Block>
 
@@ -69,7 +68,13 @@ function Body(props) {
       <About />
       <Work />
       <Experience />
-      <Projects class={props.class} btn={props.btn} appear={props.appear} />
+      {/* <Projects class={props.class} btn={props.btn} appear={props.appear} /> */}
+      <Projects
+        class={props.class}
+        btn={props.btn}
+        appear={props.appear}
+        home={true}
+      />
       <Contact />
     </>
   );

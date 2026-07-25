@@ -187,251 +187,268 @@ export default function Projects(props) {
             </div>
           </div>
         </Block>
-        {/* ===================== Weatheria ===================== */}
 
-        <Block>
-          <div className={`pjt fadeUp projectEven ${props.appear} block`}>
-            <div style={{ display: "inline-block" }} className="Ptext">
-              <h1 className="fadeUp highlight">Weatheria</h1>
+        {props.home ? null : (
+          <>
+            {/* ===================== Weatheria ===================== */}
 
-              <p className="fadeUp ppa">
-                A weather application built with
-                <span className="highlight"> React.js</span> and
-                <span className="highlight"> Tailwind CSS</span> using the
-                <span className="highlight"> Open-Meteo API</span>. Provides
-                forecasts for your location along with a detailed weekly
-                outlook. Implemented
-                <span className="highlight"> real-time API integration</span>,
-                location-based weather retrieval, and a responsive interface to
-                deliver a smooth user experience across devices.
-              </p>
+            <Block>
+              <div className={`pjt fadeUp projectEven ${props.appear} block`}>
+                <div style={{ display: "inline-block" }} className="Ptext">
+                  <h1 className="fadeUp highlight">Weatheria</h1>
 
-              <div className="pLink fadeUp jcs">
-                <a href="https://github.com/ranveer2106/weather">
-                  <i
-                    className="fab fa-github logos fadeUp"
-                    style={{ fontSize: "33px", marginRight: "1rem" }}
-                  ></i>
-                </a>
+                  <p className="fadeUp ppa">
+                    A weather application built with
+                    <span className="highlight"> React.js</span> and
+                    <span className="highlight"> Tailwind CSS</span> using the
+                    <span className="highlight"> Open-Meteo API</span>. Provides
+                    forecasts for your location along with a detailed weekly
+                    outlook. Implemented
+                    <span className="highlight">
+                      {" "}
+                      real-time API integration
+                    </span>
+                    , location-based weather retrieval, and a responsive
+                    interface to deliver a smooth user experience across
+                    devices.
+                  </p>
 
-                <a href="https://ranveer2106.github.io/weather/">
-                  <i
-                    className="fa fa-external-link logos fadeUp"
-                    style={{ fontSize: "33px" }}
-                  ></i>
-                </a>
+                  <div className="pLink fadeUp jcs">
+                    <a href="https://github.com/ranveer2106/weather">
+                      <i
+                        className="fab fa-github logos fadeUp"
+                        style={{ fontSize: "33px", marginRight: "1rem" }}
+                      ></i>
+                    </a>
+
+                    <a href="https://ranveer2106.github.io/weather/">
+                      <i
+                        className="fa fa-external-link logos fadeUp"
+                        style={{ fontSize: "33px" }}
+                      ></i>
+                    </a>
+                  </div>
+                </div>
+
+                <div className="pimg" style={{ display: "inline-block" }}>
+                  <img
+                    className="imgs fadeUp"
+                    src={require("./img/ww2.png")}
+                    alt="Weatheria"
+                  />
+                </div>
               </div>
-            </div>
+            </Block>
 
-            <div className="pimg" style={{ display: "inline-block" }}>
-              <img
-                className="imgs fadeUp"
-                src={require("./img/ww2.png")}
-                alt="Weatheria"
-              />
-            </div>
-          </div>
-        </Block>
+            {/* ===================== Portfolio ===================== */}
 
-        {/* ===================== Portfolio ===================== */}
+            <Block>
+              <div className={`pjt flexwrap fadeUp ${props.appear} block`}>
+                <div className="pimg" style={{ display: "inline-block" }}>
+                  <img
+                    className="imgs fadeUp"
+                    src={require("./img/pw.png")}
+                    alt="Portfolio"
+                  />
+                </div>
 
-        <Block>
-          <div className={`pjt flexwrap fadeUp ${props.appear} block`}>
-            <div className="pimg" style={{ display: "inline-block" }}>
-              <img
-                className="imgs fadeUp"
-                src={require("./img/pw.png")}
-                alt="Portfolio"
-              />
-            </div>
+                <div
+                  style={{ display: "inline-block" }}
+                  className="Ptext p2"
+                  id="p2"
+                >
+                  <h1 className="fadeUp highlight">Portfolio Website</h1>
 
-            <div
-              style={{ display: "inline-block" }}
-              className="Ptext p2"
-              id="p2"
-            >
-              <h1 className="fadeUp highlight">Portfolio Website</h1>
+                  <p className="fadeUp ppa">
+                    Designed and developed my personal portfolio using
+                    <span className="highlight"> React.js</span> to showcase my
+                    Product Management journey, technical skills, and featured
+                    case studies with a
+                    <span className="highlight"> clean user experience</span>,
+                    responsive design, and smooth animations.
+                  </p>
 
-              <p className="fadeUp ppa">
-                Designed and developed my personal portfolio using
-                <span className="highlight"> React.js</span> to showcase my
-                Product Management journey, technical skills, and featured case
-                studies with a
-                <span className="highlight"> clean user experience</span>,
-                responsive design, and smooth animations.
-              </p>
+                  <div
+                    className="pLink fadeUp jcs"
+                    style={{ justifyContent: "start" }}
+                  >
+                    <a href="https://github.com/ranveer2106/website">
+                      <i
+                        className="fab fa-github logos fadeUp"
+                        style={{ fontSize: "33px", marginRight: "1rem" }}
+                      ></i>
+                    </a>
 
-              <div
-                className="pLink fadeUp jcs"
-                style={{ justifyContent: "start" }}
-              >
-                <a href="https://github.com/ranveer2106/website">
-                  <i
-                    className="fab fa-github logos fadeUp"
-                    style={{ fontSize: "33px", marginRight: "1rem" }}
-                  ></i>
-                </a>
-
-                <a href="https://ranvirbhatti.netlify.app/">
-                  <i
-                    className="fa fa-external-link logos fadeUp"
-                    style={{ fontSize: "33px" }}
-                  ></i>
-                </a>
+                    <a href="https://ranvirbhatti.netlify.app/">
+                      <i
+                        className="fa fa-external-link logos fadeUp"
+                        style={{ fontSize: "33px" }}
+                      ></i>
+                    </a>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-        </Block>
+            </Block>
 
-        {/* ===================== News Chimp ===================== */}
+            {/* ===================== News Chimp ===================== */}
 
-        <Block>
-          <div className={`pjt ${props.appear} block fadeUp projectEven`}>
-            <div style={{ display: "inline-block" }} className="Ptext">
-              <h1 className="fadeUp highlight">News Chimp</h1>
+            <Block>
+              <div className={`pjt ${props.appear} block fadeUp projectEven`}>
+                <div style={{ display: "inline-block" }} className="Ptext">
+                  <h1 className="fadeUp highlight">News Chimp</h1>
 
-              <p className="fadeUp ppa">
-                A responsive news platform powered by the
-                <span className="highlight"> News API</span> that delivers
-                <span className="highlight"> real-time news</span> across
-                multiple categories with a clean and intuitive user interface
-                built using
-                <span className="highlight"> React.js</span>. Implemented
-                dynamic category filtering, asynchronous API requests, and
-                responsive layouts to provide a fast and seamless news browsing
-                experience across devices.
-              </p>
+                  <p className="fadeUp ppa">
+                    A responsive news platform powered by the
+                    <span className="highlight"> News API</span> that delivers
+                    <span className="highlight"> real-time news</span> across
+                    multiple categories with a clean and intuitive user
+                    interface built using
+                    <span className="highlight"> React.js</span>. Implemented
+                    dynamic category filtering, asynchronous API requests, and
+                    responsive layouts to provide a fast and seamless news
+                    browsing experience across devices.
+                  </p>
 
-              <div className="pLink fadeUp jcs">
-                <a href="https://github.com/ranveer2106/news-chimp">
-                  <i
-                    className="fab fa-github logos fadeUp"
-                    style={{ fontSize: "33px", marginRight: "1rem" }}
-                  ></i>
-                </a>
+                  <div className="pLink fadeUp jcs">
+                    <a href="https://github.com/ranveer2106/news-chimp">
+                      <i
+                        className="fab fa-github logos fadeUp"
+                        style={{ fontSize: "33px", marginRight: "1rem" }}
+                      ></i>
+                    </a>
+                  </div>
+                </div>
+
+                <div className="pimg" style={{ display: "inline-block" }}>
+                  <img
+                    className="imgs fadeUp"
+                    src={require("./img/nc.png")}
+                    alt="News Chimp"
+                  />
+                </div>
               </div>
-            </div>
+            </Block>
 
-            <div className="pimg" style={{ display: "inline-block" }}>
-              <img
-                className="imgs fadeUp"
-                src={require("./img/nc.png")}
-                alt="News Chimp"
-              />
-            </div>
-          </div>
-        </Block>
+            {/* ===================== To-do List ===================== */}
 
-        {/* ===================== To-do List ===================== */}
+            <Block>
+              <div className={`pjt flexwrap ${props.appear} block`}>
+                <div className="pimg" style={{ display: "inline-block" }}>
+                  <img
+                    className="imgs fadeUp"
+                    src={require("./img/tdl.png")}
+                    alt="To-do List"
+                  />
+                </div>
 
-        <Block>
-          <div className={`pjt flexwrap ${props.appear} block`}>
-            <div className="pimg" style={{ display: "inline-block" }}>
-              <img
-                className="imgs fadeUp"
-                src={require("./img/tdl.png")}
-                alt="To-do List"
-              />
-            </div>
+                <div
+                  style={{ display: "inline-block" }}
+                  className="Ptext p2"
+                  id="p2"
+                >
+                  <h1 className="fadeUp highlight">To-do List</h1>
 
-            <div
-              style={{ display: "inline-block" }}
-              className="Ptext p2"
-              id="p2"
-            >
-              <h1 className="fadeUp highlight">To-do List</h1>
+                  <p className="fadeUp ppa">
+                    A simple productivity application that helps users organize
+                    daily tasks with a
+                    <span className="highlight"> clean UI</span>, intuitive
+                    interactions, and a focus on
+                    <span className="highlight"> usability</span>.
+                  </p>
 
-              <p className="fadeUp ppa">
-                A simple productivity application that helps users organize
-                daily tasks with a<span className="highlight"> clean UI</span>,
-                intuitive interactions, and a focus on
-                <span className="highlight"> usability</span>.
-              </p>
-
-              <div className="pLink fadeUp" style={{ justifyContent: "start" }}>
-                <a href="https://github.com/ranveer2106/to-do-list">
-                  <i
-                    className="fab fa-github logos fadeUp"
-                    style={{ fontSize: "33px", marginRight: "1rem" }}
-                  ></i>
-                </a>
+                  <div
+                    className="pLink fadeUp"
+                    style={{ justifyContent: "start" }}
+                  >
+                    <a href="https://github.com/ranveer2106/to-do-list">
+                      <i
+                        className="fab fa-github logos fadeUp"
+                        style={{ fontSize: "33px", marginRight: "1rem" }}
+                      ></i>
+                    </a>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-        </Block>
+            </Block>
 
-        {/* ===================== Text Editor ===================== */}
+            {/* ===================== Text Editor ===================== */}
 
-        <Block>
-          <div className={`pjt ${props.appear} projectEven block`}>
-            <div style={{ display: "inline-block" }} className="Ptext">
-              <h1 className="fadeUp highlight">Text Editor</h1>
+            <Block>
+              <div className={`pjt ${props.appear} projectEven block`}>
+                <div style={{ display: "inline-block" }} className="Ptext">
+                  <h1 className="fadeUp highlight">Text Editor</h1>
 
-              <p className="fadeUp ppa">
-                A lightweight text utility application for editing and
-                formatting content with features designed to improve
-                <span className="highlight"> writing productivity</span>. Built
-                with a responsive interface and continuously improved through
-                user feedback.
-              </p>
+                  <p className="fadeUp ppa">
+                    A lightweight text utility application for editing and
+                    formatting content with features designed to improve
+                    <span className="highlight"> writing productivity</span>.
+                    Built with a responsive interface and continuously improved
+                    through user feedback.
+                  </p>
 
-              <div className="pLink fadeUp jcs">
-                <a href="https://github.com/ranveer2106/text-modifier">
-                  <i
-                    className="fab fa-github logos fadeUp"
-                    style={{ fontSize: "33px", marginRight: "1rem" }}
-                  ></i>
-                </a>
+                  <div className="pLink fadeUp jcs">
+                    <a href="https://github.com/ranveer2106/text-modifier">
+                      <i
+                        className="fab fa-github logos fadeUp"
+                        style={{ fontSize: "33px", marginRight: "1rem" }}
+                      ></i>
+                    </a>
+                  </div>
+                </div>
+
+                <div className="pimg" style={{ display: "inline-block" }}>
+                  <img
+                    className="imgs fadeUp"
+                    src={require("./img/tm.png")}
+                    alt="Text Editor"
+                  />
+                </div>
               </div>
-            </div>
+            </Block>
 
-            <div className="pimg" style={{ display: "inline-block" }}>
-              <img
-                className="imgs fadeUp"
-                src={require("./img/tm.png")}
-                alt="Text Editor"
-              />
-            </div>
-          </div>
-        </Block>
+            {/* ===================== Black Jack ===================== */}
 
-        {/* ===================== Black Jack ===================== */}
+            <Block>
+              <div className={`pjt flexwrap ${props.appear} block`}>
+                <div className="pimg" style={{ display: "inline-block" }}>
+                  <img
+                    className="imgs fadeUp"
+                    src={require("./img/bj.png")}
+                    alt="Black Jack"
+                  />
+                </div>
 
-        <Block>
-          <div className={`pjt flexwrap ${props.appear} block`}>
-            <div className="pimg" style={{ display: "inline-block" }}>
-              <img
-                className="imgs fadeUp"
-                src={require("./img/bj.png")}
-                alt="Black Jack"
-              />
-            </div>
+                <div
+                  style={{ display: "inline-block" }}
+                  className="Ptext p2"
+                  id="p2"
+                >
+                  <h1 className="fadeUp highlight">Black Jack Game</h1>
 
-            <div
-              style={{ display: "inline-block" }}
-              className="Ptext p2"
-              id="p2"
-            >
-              <h1 className="fadeUp highlight">Black Jack Game</h1>
+                  <p className="fadeUp ppa">
+                    A browser-based implementation of the classic
+                    <span className="highlight"> Black Jack</span> game built
+                    with
+                    <span className="highlight"> JavaScript</span>, featuring
+                    interactive gameplay, score tracking, and responsive design.
+                  </p>
 
-              <p className="fadeUp ppa">
-                A browser-based implementation of the classic
-                <span className="highlight"> Black Jack</span> game built with
-                <span className="highlight"> JavaScript</span>, featuring
-                interactive gameplay, score tracking, and responsive design.
-              </p>
-
-              <div className="pLink fadeUp" style={{ justifyContent: "start" }}>
-                <a href="https://github.com/ranveer2106/Black-jack">
-                  <i
-                    className="fab fa-github logos fadeUp"
-                    style={{ fontSize: "33px", marginRight: "1rem" }}
-                  ></i>
-                </a>
+                  <div
+                    className="pLink fadeUp"
+                    style={{ justifyContent: "start" }}
+                  >
+                    <a href="https://github.com/ranveer2106/Black-jack">
+                      <i
+                        className="fab fa-github logos fadeUp"
+                        style={{ fontSize: "33px", marginRight: "1rem" }}
+                      ></i>
+                    </a>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-        </Block>
+            </Block>
+          </>
+        )}
       </div>
 
       <Block>
