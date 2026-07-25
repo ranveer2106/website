@@ -14,40 +14,93 @@ export default function Experience() {
                 <div>
 
                     <div style={{ display: "flex", flexWrap: "wrap" }} id="experience">
-                        <Block>
-                            <div className='certificates'>
-                                <div id="exph">
-                                    <img className='certimg imgs fadeUp' src={require('./img/microsoft.png')} alt="h" />
-                                </div>
-                                <div style={{ display: "inline-block", marginLeft: "1rem" }}>
-                                    <h4 className='certname' style={{ color: "#00FFF5" }}>Microsoft Certified: Security, Compliance, and Identity Fundamentals (SC-900) </h4>
-                                    <p style={{ display: "inline-block", fontSize: "1.3rem" }}>
-                                        Validated foundational knowledge of security, compliance, and
-                                        identity principles within <span className='highlight'> Microsoft solutions.</span>
-                                        Proficient in understanding cloud-based security concepts,
-                                        compliance standards, identity protection, and governance
-                                        strategies. Skilled in leveraging Microsoft solutions to
-                                        implement secure and compliant business processes.
-                                    </p>
-                                </div>
-                            </div>
-                        </Block>
-                        <Block>
-                            <div className='certificates'>
-                                <div id="exph">
-                                    <img className='certimg imgs fadeUp' src={require('./img/gc.png')} alt="h" />
-                                </div>
-                                <div style={{ display: "inline-block", marginLeft: "1rem" }}>
-                                    <h4 className='certname' style={{ color: "#00FFF5" }}>Google Fundamentals of Digital Marketing</h4>
-                                    <p style={{ display: "inline-block", fontSize: "1.3rem" }}>
-                                        I Did this Course to learn more about Seo and Marketing and how to include them in my <span className='highlight'>Front-end Desgin</span> of the websites that I create.
-                                        Moreover this course Taught me more about customer physcology and their needs from a website.
-                                    </p>
-                                </div>
-                            </div>
-                        </Block>
+    {/* Airtribe Certification */}
+    <Block>
+        <div className='certificates'>
+            <div id="exph">
+                <img
+                    className='certimg imgs fadeUp'
+                    src={require('./img/airtribe.jpg')}
+                    alt="Airtribe"
+                />
+            </div>
 
-                    </div>
+            <div style={{ display: "inline-block", marginLeft: "1rem" }}>
+                <h4 className='certname' style={{ color: "#00FFF5" }}>
+                    AI-First Product Management Program – Airtribe
+                </h4>
+
+                <p style={{ display: "inline-block", fontSize: "1.3rem" }}>
+                    Completed an intensive Product Management program covering
+                    <span className='highlight'> User Research</span>,
+                    <span className='highlight'> PRD Writing</span>,
+                    <span className='highlight'> Roadmapping</span>,
+                    <span className='highlight'> GTM Strategy</span>, and
+                    <span className='highlight'> AI-powered Product Development</span>.
+                    Applied these skills through hands-on capstone projects on
+                    <span className='highlight'> Suno AI</span> and
+                    <span className='highlight'> Stable Money</span>.
+                </p>
+            </div>
+        </div>
+    </Block>
+    {/* Microsoft Certification */}
+    <Block>
+        <div className='certificates'>
+            <div id="exph">
+                <img
+                    className='certimg imgs fadeUp'
+                    src={require('./img/microsoft.png')}
+                    alt="Microsoft"
+                />
+            </div>
+
+            <div style={{ display: "inline-block", marginLeft: "1rem" }}>
+                <h4 className='certname' style={{ color: "#00FFF5" }}>
+                    Microsoft Certified: Security, Compliance, and Identity Fundamentals (SC-900)
+                </h4>
+
+                <p style={{ display: "inline-block", fontSize: "1.3rem" }}>
+                    Earned the Microsoft SC-900 certification, validating foundational knowledge of
+                    <span className='highlight'> cloud security</span>,
+                    <span className='highlight'> identity management</span>,
+                    <span className='highlight'> compliance</span>, and
+                    <span className='highlight'> governance</span> across Microsoft solutions.
+                </p>
+            </div>
+        </div>
+    </Block>
+
+    {/* Google Certification */}
+    <Block>
+        <div className='certificates'>
+            <div id="exph">
+                <img
+                    className='certimg imgs fadeUp'
+                    src={require('./img/gc.png')}
+                    alt="Google"
+                />
+            </div>
+
+            <div style={{ display: "inline-block", marginLeft: "1rem" }}>
+                <h4 className='certname' style={{ color: "#00FFF5" }}>
+                    Google Fundamentals of Digital Marketing
+                </h4>
+
+                <p style={{ display: "inline-block", fontSize: "1.3rem" }}>
+                    Learned the fundamentals of
+                    <span className='highlight'> SEO</span>,
+                    <span className='highlight'> digital marketing</span>, and
+                    <span className='highlight'> customer behavior</span>,
+                    helping me better understand how users discover, engage with,
+                    and interact with digital products.
+                </p>
+            </div>
+        </div>
+    </Block>
+
+    
+</div>
                 </div>
             </div>
         </>
